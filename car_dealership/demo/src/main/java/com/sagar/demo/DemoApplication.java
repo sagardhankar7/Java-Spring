@@ -15,9 +15,8 @@ public class DemoApplication {
 //		2
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-		Car normalCar = (Car) context.getBean("normalCar");
-		Car sportsCar = (Car) context.getBean("sportsCar");
-		Car truckCar = (Car) context.getBean("truckCar");
+//		Car normalCar = (Car) context.getBean("normalCar");
+		Car car = null;
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("What is your nane");
@@ -31,19 +30,27 @@ public class DemoApplication {
 		String toPrint="";
 		switch (option) {
 			case 1:
-				normalCar.setOwnerName(name);
-				toPrint = normalCar.getInfo();
+				System.out.println("1. Normal Tyre");
+				System.out.println("2. Sports Tyre");
+				int newOption = Integer.parseInt(scanner.nextLine());
+				switch (newOption) {
+					case 1:
+						car = (Car) context.getBean("normalCar");
+						break;
+					case 2:
+						car = (Car) context.getBean("normalCarSportsTyre");
+						break;
+				}
 				break;
 			case 2:
-				sportsCar.setOwnerName(name);
-				toPrint = sportsCar.getInfo();
+				car = (Car) context.getBean("sportsCar");
 				break;
 			case 3:
-				truckCar.setOwnerName(name);
-				toPrint = truckCar.getInfo();
+				car = (Car) context.getBean("truck");
 				break;
-
 		}
+		car.setOwnerName(name);
+		toPrint = car.getInfo();
 
 		System.out.println(toPrint);
 

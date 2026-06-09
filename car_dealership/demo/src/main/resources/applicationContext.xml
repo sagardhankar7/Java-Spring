@@ -8,6 +8,9 @@
     <bean id="normalCar" class="com.sagar.demo.NormalCar">
         <constructor-arg ref="normalTyre"/>
     </bean>
+    <bean id="normalCarSportsTyre" class="com.sagar.demo.NormalCar">
+        <constructor-arg ref="sportsTyre"/>
+    </bean>
     <bean id="sportsCar" class="com.sagar.demo.SportsCar">
         <constructor-arg ref="sportsTyre"/>
     </bean>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="normalCar" class="com.sagar.demo.NormalCar">
+        <constructor-arg ref="normalTyre"/>
+    </bean>
+    <bean id="sportsCar" class="com.sagar.demo.SportsCar">
+        <constructor-arg ref="sportsTyre"/>
+    </bean>
+    <bean id="truckCar" class="com.sagar.demo.Truck">
+        <constructor-arg ref="heavyTyre"/>
+    </bean>
+
+    <bean id="normalTyre" class="com.sagar.demo.NormalTyre"></bean>
+    <bean id="sportsTyre" class="com.sagar.demo.SportsTyre"></bean>
+    <bean id="heavyTyre" class="com.sagar.demo.HeavyTyre"></bean>
+
+</beans>

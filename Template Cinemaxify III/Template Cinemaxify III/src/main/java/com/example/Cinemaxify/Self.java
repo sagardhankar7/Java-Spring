@@ -8,6 +8,7 @@ public class Self implements User{
     private Long contact;
     private String address;
     private Plan plan;
+    private static boolean hasActivePlan;
 
     // Add setPlan(Plan plan) method which sets plan attribute:
 
@@ -24,6 +25,7 @@ public class Self implements User{
         System.out.println("Hello " + name + " you have entered the following details:");
         System.out.println("age: " +age + "\ncontact: " + contact + "\naddress: " +address);
         System.out.println("You have selected a "+ plan.getPlanName() + " plan for " + memberName);
+        this.hasActivePlan=true;
     }
 
     @Override
@@ -33,5 +35,9 @@ public class Self implements User{
 
     public void setPlan(Plan plan) {
         this.plan = plan;
+    }
+
+    public boolean HasActivePlanAlready() {
+        return hasActivePlan;
     }
 }

@@ -42,6 +42,11 @@ public class CinemaxifyApplication {
 				}
 			}
 			User user = (User) context.getBean(userType + myPlan);
+			if (user.HasActivePlanAlready()) {
+				System.out.println(userType + " has active plan");
+				continue;
+			}
+
 			// Input details for selected user
 			System.out.println("Please enter your name:");
 			String name = scanner.nextLine();

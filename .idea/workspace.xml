@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="LIC">
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Setter Based DI (Dependency Injection)">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Java Spring.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Template Cinemaxify II/Template Cinemaxify II.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/CinemaxifyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/CinemaxifyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/Self.java" beforeDir="false" afterPath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/Self.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/Spouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/Spouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Template Cinemaxify III/Template Cinemaxify III/src/main/java/com/example/Cinemaxify/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car_dealership/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/car_dealership/.idea/car_dealership.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/car_dealership/.idea/compiler.xml" beforeDir="false" />
@@ -74,61 +77,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000000135" />
-      <entry key="MS500" value="1.0020575305493076" />
-      <entry key="S2" value="1.3416041335554485" />
-      <entry key="S5" value="1.982196775229831" />
-      <entry key="S10" value="2.4014499052561624" />
-      <entry key="S30" value="3.0135110327994723" />
-      <entry key="S60" value="3.9985248648272056" />
-      <entry key="M2" value="6.002926638399505" />
-      <entry key="M5" value="11.547541991369101" />
-      <entry key="M10" value="18.242370595518206" />
-      <entry key="M15" value="22.445545915912774" />
-      <entry key="M30" value="28.6230614025636" />
-      <entry key="H1" value="32.80675444633731" />
-      <entry key="H2" value="35.300685155725205" />
-      <entry key="H4" value="38.48303263392075" />
-      <entry key="D1" value="103.2230275414534" />
-      <entry key="W1" value="171.43246479910033" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.580890653847515E-101" />
+      <entry key="S2" value="6.315023978614722E-26" />
+      <entry key="S5" value="8.942884571796149E-11" />
+      <entry key="S10" value="1.1996662963508317E-5" />
+      <entry key="S30" value="0.04695895389307975" />
+      <entry key="S60" value="0.4676529953047723" />
+      <entry key="M2" value="2.0435031172532363" />
+      <entry key="M5" value="8.782646120595123" />
+      <entry key="M10" value="17.939793797105352" />
+      <entry key="M15" value="23.983458845206627" />
+      <entry key="M30" value="36.27695788245069" />
+      <entry key="H1" value="53.284320960743635" />
+      <entry key="H2" value="71.46801276941919" />
+      <entry key="H4" value="86.89701706888698" />
+      <entry key="D1" value="163.03689694808733" />
+      <entry key="W1" value="236.81219484791305" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.244869530752793E-7" />
-      <entry key="MS500" value="0.060706718471352075" />
-      <entry key="S2" value="0.49637418772015407" />
-      <entry key="S5" value="0.7556556520046835" />
-      <entry key="S10" value="0.8705037608728412" />
-      <entry key="S30" value="1.3640854902362085" />
-      <entry key="S60" value="3.188019018473275" />
-      <entry key="M2" value="7.2271920823182185" />
-      <entry key="M5" value="17.031914754011527" />
-      <entry key="M10" value="27.7752787313705" />
-      <entry key="M15" value="34.23987193357794" />
-      <entry key="M30" value="43.46758043268119" />
-      <entry key="H1" value="49.5674683842462" />
-      <entry key="H2" value="53.13376297900771" />
-      <entry key="H4" value="56.58348324771722" />
-      <entry key="D1" value="101.9993047684024" />
-      <entry key="W1" value="143.67678887387137" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000016490560944" />
+      <entry key="S2" value="1.0637248551873868" />
+      <entry key="S5" value="1.3324478610238089" />
+      <entry key="S10" value="1.5765964961181105" />
+      <entry key="S30" value="1.8963280157438427" />
+      <entry key="S60" value="2.5791219112030186" />
+      <entry key="M2" value="4.564625692424527" />
+      <entry key="M5" value="10.641708588252394" />
+      <entry key="M10" value="18.48140909767821" />
+      <entry key="M15" value="23.78255631691338" />
+      <entry key="M30" value="35.25871445893099" />
+      <entry key="H1" value="53.498191057224986" />
+      <entry key="H2" value="74.73066418270683" />
+      <entry key="H4" value="92.96506961244803" />
+      <entry key="D1" value="154.12484246147227" />
+      <entry key="W1" value="201.32330823815798" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.01937043289916362" />
-      <entry key="MS500" value="0.4647248470351239" />
-      <entry key="S2" value="1.356434783070856" />
-      <entry key="S5" value="2.3655003212624086" />
-      <entry key="S10" value="3.0262617928491164" />
-      <entry key="S30" value="4.24948188323011" />
-      <entry key="S60" value="7.062842007949176" />
-      <entry key="M2" value="13.108895764286144" />
-      <entry key="M5" value="28.477076791974444" />
-      <entry key="M10" value="45.936057801680136" />
-      <entry key="M15" value="56.618341994256106" />
-      <entry key="M30" value="72.04777832237792" />
-      <entry key="H1" value="82.34963185691623" />
-      <entry key="H2" value="88.42121623262237" />
-      <entry key="H4" value="95.05942856468506" />
-      <entry key="D1" value="205.21991783085454" />
-      <entry key="W1" value="315.1087295594601" />
+      <entry key="MS100" value="0.003569654102458597" />
+      <entry key="MS500" value="0.32398978411670043" />
+      <entry key="S2" value="0.8006182804789291" />
+      <entry key="S5" value="1.1856483466812413" />
+      <entry key="S10" value="1.4858151713344971" />
+      <entry key="S30" value="1.9020376350440558" />
+      <entry key="S60" value="3.004942182487492" />
+      <entry key="M2" value="6.556628142340602" />
+      <entry key="M5" value="19.364617826145462" />
+      <entry key="M10" value="36.36634594831767" />
+      <entry key="M15" value="47.71832440827136" />
+      <entry key="M30" value="71.49959261319292" />
+      <entry key="H1" value="106.75464128349192" />
+      <entry key="H2" value="146.17903575369095" />
+      <entry key="H4" value="179.84981443041767" />
+      <entry key="D1" value="317.1581218250539" />
+      <entry key="W1" value="438.13478836880296" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -142,6 +145,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.demo [:com.sagar.demo.DemoApplication.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -151,6 +155,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.CinemaxifyApplication (1).executor": "Run",
     "Spring Boot.CinemaxifyApplication.executor": "Run",
     "Spring Boot.VaccinationApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -166,7 +171,27 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.VaccinationApplication">
+  <component name="RunManager" selected="Spring Boot.CinemaxifyApplication (1)">
+    <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sagar.demo.DemoApplication" />
+      <module name="demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sagar.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CinemaxifyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Cinemaxify (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Cinemaxify.CinemaxifyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CinemaxifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Cinemaxify" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Cinemaxify.CinemaxifyApplication" />
@@ -181,6 +206,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -198,7 +228,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781001199028</updated>
       <workItem from="1781001200246" duration="6358000" />
-      <workItem from="1781066250913" duration="10124000" />
+      <workItem from="1781066250913" duration="16276000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -208,7 +238,31 @@
       <option name="project" value="LOCAL" />
       <updated>1781066056439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Vaccine Program">
+      <option name="closed" value="true" />
+      <created>1781153254077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1781153254077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DI using Setter Method (Dependency Injection)">
+      <option name="closed" value="true" />
+      <created>1781155027273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1781155027273</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Setter Based DI (Dependency Injection)">
+      <option name="closed" value="true" />
+      <created>1781158905854</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1781158905854</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +281,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LIC" />
-    <option name="LAST_COMMIT_MESSAGE" value="LIC" />
+    <MESSAGE value="Vaccine Program" />
+    <MESSAGE value="DI using Setter Method (Dependency Injection)" />
+    <MESSAGE value="Setter Based DI (Dependency Injection)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setter Based DI (Dependency Injection)" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

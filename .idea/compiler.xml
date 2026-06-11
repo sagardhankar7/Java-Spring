@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Cinemaxify" />
         <module name="Vaccination" />
+        <module name="Cinemaxify (1)" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Cinemaxify" options="-parameters" />
+      <module name="Cinemaxify (1)" options="-parameters" />
       <module name="Vaccination" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />

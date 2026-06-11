@@ -8,7 +8,7 @@ public class SocialMediaApplication {
 
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		Post post = (Post) context.getBean("simplePost");
+		Post post;
 		PostList postList = (PostList) context.getBean("simplePostList");
 		Scanner scanner = new Scanner(System.in);
 
@@ -17,6 +17,8 @@ public class SocialMediaApplication {
 			int option = Integer.parseInt(scanner.nextLine());
 			switch (option) {
 				case 1:
+					post  = (Post) context.getBean("simplePost");
+
 					System.out.println("Enter your message:\n");
 					String message = scanner.nextLine();
 					post.setMessage(message);

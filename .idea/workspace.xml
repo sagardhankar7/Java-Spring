@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="DI using Setter Method">
-      <change afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/PostList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePostList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="bean scope - Singleton failure">
+      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,61 +68,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0366082108953213E-127" />
-      <entry key="MS500" value="6.9568084474604E-26" />
-      <entry key="S2" value="8.912153959018758E-7" />
-      <entry key="S5" value="0.007114790335696091" />
-      <entry key="S10" value="0.17366820134740216" />
-      <entry key="S30" value="2.0318788422315515" />
-      <entry key="S60" value="4.571994906973906" />
-      <entry key="M2" value="8.07522313875378" />
-      <entry key="M5" value="14.644281584504126" />
-      <entry key="M10" value="22.830578393250182" />
-      <entry key="M15" value="28.756645912960725" />
-      <entry key="M30" value="38.87406784079942" />
-      <entry key="H1" value="48.27884370070935" />
-      <entry key="H2" value="64.68627241103812" />
-      <entry key="H4" value="94.09653487795343" />
-      <entry key="D1" value="209.83858714337322" />
-      <entry key="W1" value="304.9701227488265" />
+      <entry key="MS100" value="1.0011140270662777" />
+      <entry key="MS500" value="1.2566723864299998" />
+      <entry key="S2" value="1.7117783714609187" />
+      <entry key="S5" value="1.872854071895246" />
+      <entry key="S10" value="1.9413831892111104" />
+      <entry key="S30" value="2.6788748082022886" />
+      <entry key="S60" value="4.203278502470663" />
+      <entry key="M2" value="5.931891284887404" />
+      <entry key="M5" value="7.9218900423852565" />
+      <entry key="M10" value="11.836117889612684" />
+      <entry key="M15" value="16.872952967199687" />
+      <entry key="M30" value="29.734884744164535" />
+      <entry key="H1" value="44.35009141521309" />
+      <entry key="H2" value="64.38871964587506" />
+      <entry key="H4" value="96.09098994365439" />
+      <entry key="D1" value="216.15786082216962" />
+      <entry key="W1" value="313.41084812336874" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.000008526134788" />
-      <entry key="S2" value="1.0629606724638172" />
-      <entry key="S5" value="1.5757769061929001" />
-      <entry key="S10" value="2.496343805614491" />
-      <entry key="S30" value="5.456128637834464" />
-      <entry key="S60" value="9.920407567447278" />
-      <entry key="M2" value="17.754212635482943" />
-      <entry key="M5" value="33.98275509398863" />
-      <entry key="M10" value="50.916405401320404" />
-      <entry key="M15" value="61.09060188292536" />
-      <entry key="M30" value="75.6810472381422" />
-      <entry key="H1" value="87.51480831512568" />
-      <entry key="H2" value="108.50339777743154" />
-      <entry key="H4" value="146.12029201543373" />
-      <entry key="D1" value="263.6954371688479" />
-      <entry key="W1" value="334.75133040478295" />
+      <entry key="MS100" value="7.849215964668313E-48" />
+      <entry key="MS500" value="3.7928467275877305E-10" />
+      <entry key="S2" value="0.004488531310632864" />
+      <entry key="S5" value="0.13670346125078014" />
+      <entry key="S10" value="0.48783395938375523" />
+      <entry key="S30" value="1.2277029866772817" />
+      <entry key="S60" value="1.5633939879611973" />
+      <entry key="M2" value="1.7689848778922992" />
+      <entry key="M5" value="2.7474154944400504" />
+      <entry key="M10" value="9.976259173397985" />
+      <entry key="M15" value="19.792746210440725" />
+      <entry key="M30" value="42.86454551596274" />
+      <entry key="H1" value="66.31216684215183" />
+      <entry key="H2" value="95.01601472877476" />
+      <entry key="H4" value="137.29157152970492" />
+      <entry key="D1" value="262.3333749111424" />
+      <entry key="W1" value="336.13827049642555" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0015645896046672298" />
-      <entry key="MS500" value="0.2747164221841458" />
-      <entry key="S2" value="0.7721065927701718" />
-      <entry key="S5" value="1.4033134587416471" />
-      <entry key="S10" value="2.522698240356191" />
-      <entry key="S30" value="7.3268272566894" />
-      <entry key="S60" value="14.308178393538714" />
-      <entry key="M2" value="25.64759339006071" />
-      <entry key="M5" value="48.481456693924905" />
-      <entry key="M10" value="73.6363202367125" />
-      <entry key="M15" value="89.75826330879617" />
-      <entry key="M30" value="114.49967343620642" />
-      <entry key="H1" value="135.76145814739508" />
-      <entry key="H2" value="173.16927015343248" />
-      <entry key="H4" value="240.20247227471526" />
-      <entry key="D1" value="473.5290889295384" />
-      <entry key="W1" value="639.720480800383" />
+      <entry key="MS100" value="0.9670049751174831" />
+      <entry key="MS500" value="1.2476387953781911" />
+      <entry key="S2" value="1.7086811696955648" />
+      <entry key="S5" value="1.9107693119246993" />
+      <entry key="S10" value="2.220385954401849" />
+      <entry key="S30" value="3.7160809549236857" />
+      <entry key="S60" value="5.643402546996495" />
+      <entry key="M2" value="7.630656087519405" />
+      <entry key="M5" value="10.63531286891504" />
+      <entry key="M10" value="21.77934219691686" />
+      <entry key="M15" value="36.62924798492524" />
+      <entry key="M30" value="72.5641926116944" />
+      <entry key="H1" value="110.63594049858219" />
+      <entry key="H2" value="159.38591429488974" />
+      <entry key="H4" value="233.36860416916417" />
+      <entry key="D1" value="478.48625212132174" />
+      <entry key="W1" value="649.5481321664123" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -249,7 +242,7 @@
       <option name="presentableId" value="Default" />
       <updated>1781001199028</updated>
       <workItem from="1781001200246" duration="6358000" />
-      <workItem from="1781066250913" duration="22065000" />
+      <workItem from="1781066250913" duration="22304000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -307,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781176867124</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bean scope - Singleton failure">
+      <option name="closed" value="true" />
+      <created>1781181584907</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781181584907</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +333,8 @@
     <MESSAGE value="Setter Based DI, and memory used (Dependency Injection)" />
     <MESSAGE value="-" />
     <MESSAGE value="DI using Setter Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="DI using Setter Method" />
+    <MESSAGE value="bean scope - Singleton failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="bean scope - Singleton failure" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

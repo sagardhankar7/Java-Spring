@@ -5,7 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="simplePost" class="com.sagar.SocialMedia.SimplePost"></bean>
+    <bean id="simplePost" class="com.sagar.SocialMedia.SimplePost" scope="prototype"></bean>
     <bean id="simplePostList" class="com.sagar.SocialMedia.SimplePostList"></bean>
 
 </beans>

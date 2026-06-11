@@ -4,9 +4,9 @@ public class SportsCar implements Car{
     String owner;
     Tyre tyre;
 
-    public SportsCar(Tyre tyre) {
-        this.tyre = tyre;
-    }
+//    public SportsCar(Tyre tyre) {
+//        this.tyre = tyre;
+//    }
 
     @Override
     public String getInfo() {
@@ -21,5 +21,9 @@ public class SportsCar implements Car{
     @Override
     public String getOwnerName() {
         return owner;
+    }
+
+    public void setTyre(Tyre tyre) {
+        this.tyre = tyre;
     }
 }

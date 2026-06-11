@@ -12,7 +12,10 @@
         <constructor-arg ref="sportsTyre"/>
     </bean>
     <bean id="sportsCar" class="com.sagar.demo.SportsCar">
-        <constructor-arg ref="sportsTyre"/>
+        <property name="tyre" ref="sportsTyre"></property>
+    </bean>
+    <bean id="sportsCarHeavyTyre" class="com.sagar.demo.SportsCar">
+        <property name="tyre" ref="heavyTyre"></property>
     </bean>
     <bean id="truckCar" class="com.sagar.demo.Truck">
         <constructor-arg ref="heavyTyre"/>

@@ -43,7 +43,17 @@ public class DemoApplication {
 				}
 				break;
 			case 2:
-				car = (Car) context.getBean("sportsCar");
+				System.out.println("1. Sports Tyre");
+				System.out.println("2. Heavy Tyre");
+				int newOption2 = Integer.parseInt(scanner.nextLine());
+				switch (newOption2) {
+					case 1:
+						car = (Car) context.getBean("sportsCar");
+						break;
+					case 2:
+						car = (Car) context.getBean("sportsCarHeavyTyre");
+						break;
+				}
 				break;
 			case 3:
 				car = (Car) context.getBean("truck");

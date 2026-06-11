@@ -25,10 +25,10 @@ public class Father implements User {
     private TimeAndLocation timeAndLocation;
     private Vaccine vaccine;
 
-    public Father(TimeAndLocation timeAndLocation, Vaccine vaccine) {
-        this.timeAndLocation = timeAndLocation;
-        this.vaccine = vaccine;
-    }
+//    public Father(TimeAndLocation timeAndLocation, Vaccine vaccine) {
+//        this.timeAndLocation = timeAndLocation;
+//        this.vaccine = vaccine;
+//    }
 
     @Override
     public Vaccine getVaccineDetails() {
@@ -50,5 +50,13 @@ public class Father implements User {
     @Override
     public boolean IsVaccinated() {
         return this.isVaccinated;
+    }
+
+    public void setVaccine(Vaccine vaccine) {
+        this.vaccine = vaccine;
+    }
+
+    public void setTimeLocation(TimeAndLocation timeLocation) {
+        this.timeAndLocation = timeLocation;
     }
 }

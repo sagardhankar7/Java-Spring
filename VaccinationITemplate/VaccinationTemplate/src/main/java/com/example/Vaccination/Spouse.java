@@ -25,10 +25,10 @@ public class Spouse implements User {
     private TimeAndLocation timeAndLocation;
     private Vaccine vaccine;
 
-    public Spouse(TimeAndLocation timeAndLocation, Vaccine vaccine) {
-        this.timeAndLocation = timeAndLocation;
-        this.vaccine = vaccine;
-    }
+//    public Spouse(TimeAndLocation timeAndLocation, Vaccine vaccine) {
+//        this.timeAndLocation = timeAndLocation;
+//        this.vaccine = vaccine;
+//    }
 
     @Override
     public Vaccine getVaccineDetails() {
@@ -50,5 +50,13 @@ public class Spouse implements User {
     @Override
     public boolean IsVaccinated() {
         return this.isVaccinated;
+    }
+
+    public void setTimeLocation(TimeAndLocation timeLocation) {
+        this.timeAndLocation = timeLocation;
+    }
+
+    public void setVaccine(Vaccine vaccine) {
+        this.vaccine = vaccine;
     }
 }

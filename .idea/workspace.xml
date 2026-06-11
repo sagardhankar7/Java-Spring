@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="LIC">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template Cinemaxify II/Template Cinemaxify II.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/car_dealership.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/modules/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car_dealership/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/harsh/Desktop/sagar/Java Spring" value="3EtcEsdDH0t8tuISfFqpWjGk1mk" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="174" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/car_dealership/demo">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/car_dealership/demo">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000000135" />
+      <entry key="MS500" value="1.0020575305493076" />
+      <entry key="S2" value="1.3416041335554485" />
+      <entry key="S5" value="1.982196775229831" />
+      <entry key="S10" value="2.4014499052561624" />
+      <entry key="S30" value="3.0135110327994723" />
+      <entry key="S60" value="3.9985248648272056" />
+      <entry key="M2" value="6.002926638399505" />
+      <entry key="M5" value="11.547541991369101" />
+      <entry key="M10" value="18.242370595518206" />
+      <entry key="M15" value="22.445545915912774" />
+      <entry key="M30" value="28.6230614025636" />
+      <entry key="H1" value="32.80675444633731" />
+      <entry key="H2" value="35.300685155725205" />
+      <entry key="H4" value="38.48303263392075" />
+      <entry key="D1" value="103.2230275414534" />
+      <entry key="W1" value="171.43246479910033" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="8.244869530752793E-7" />
+      <entry key="MS500" value="0.060706718471352075" />
+      <entry key="S2" value="0.49637418772015407" />
+      <entry key="S5" value="0.7556556520046835" />
+      <entry key="S10" value="0.8705037608728412" />
+      <entry key="S30" value="1.3640854902362085" />
+      <entry key="S60" value="3.188019018473275" />
+      <entry key="M2" value="7.2271920823182185" />
+      <entry key="M5" value="17.031914754011527" />
+      <entry key="M10" value="27.7752787313705" />
+      <entry key="M15" value="34.23987193357794" />
+      <entry key="M30" value="43.46758043268119" />
+      <entry key="H1" value="49.5674683842462" />
+      <entry key="H2" value="53.13376297900771" />
+      <entry key="H4" value="56.58348324771722" />
+      <entry key="D1" value="101.9993047684024" />
+      <entry key="W1" value="143.67678887387137" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.01937043289916362" />
+      <entry key="MS500" value="0.4647248470351239" />
+      <entry key="S2" value="1.356434783070856" />
+      <entry key="S5" value="2.3655003212624086" />
+      <entry key="S10" value="3.0262617928491164" />
+      <entry key="S30" value="4.24948188323011" />
+      <entry key="S60" value="7.062842007949176" />
+      <entry key="M2" value="13.108895764286144" />
+      <entry key="M5" value="28.477076791974444" />
+      <entry key="M10" value="45.936057801680136" />
+      <entry key="M15" value="56.618341994256106" />
+      <entry key="M30" value="72.04777832237792" />
+      <entry key="H1" value="82.34963185691623" />
+      <entry key="H2" value="88.42121623262237" />
+      <entry key="H4" value="95.05942856468506" />
+      <entry key="D1" value="205.21991783085454" />
+      <entry key="W1" value="315.1087295594601" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3EtcEsdDH0t8tuISfFqpWjGk1mk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.CinemaxifyApplication.executor": "Run",
+    "Spring Boot.VaccinationApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/harsh/Desktop/sagar/Java Spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.VaccinationApplication">
+    <configuration name="CinemaxifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Cinemaxify" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Cinemaxify.CinemaxifyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VaccinationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Vaccination" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Vaccination.VaccinationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="" />
+      <created>1781001199028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781001199028</updated>
+      <workItem from="1781001200246" duration="6358000" />
+      <workItem from="1781066250913" duration="10124000" />
+    </task>
+    <task id="LOCAL-00001" summary="LIC">
+      <option name="closed" value="true" />
+      <created>1781066056439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1781066056439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LIC" />
+    <option name="LAST_COMMIT_MESSAGE" value="LIC" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

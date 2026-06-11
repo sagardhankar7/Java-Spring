@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Cinemaxify" />
+        <module name="Vaccination" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Cinemaxify" options="-parameters" />
+      <module name="Vaccination" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />

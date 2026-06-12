@@ -1,0 +1,34 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="currentAccount" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.currentAccount">
+<!--        <property name="amount" value="0.0"/>-->
+    </bean>
+    <bean id="savingsAccount" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.savingsAccount">
+<!--        <property name="amount" value="0.0"/>-->
+    </bean>
+
+    <bean id="myUser" class="com.codingNinjas.Bank.Account.Registration.myUser">
+        <property name="name" value=""/>
+<!--        <property name="accountList">-->
+<!--            <list>-->
+<!--                <ref bean="currentAccount"/>-->
+<!--                <ref bean="savingsAccount"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--        <property name="currentAccount" ref="currentAccount"/>-->
+<!--        <property name="savingsAccount" ref="savingsAccount"/>-->
+    </bean>
+
+    <!--
+
+                 Instruction for writing bean defination:
+               
+               1. bean id should be same as class name but in camel-case naming convention.
+               2. below is an example for reference.
+                
+               <bean id="pfAccount" class="com.codingNinjas.Bank.Account.Registration.pfAccount">
+            -->
+
+</beans>

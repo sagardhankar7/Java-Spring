@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="bean scope - Singleton Failure">
-      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="bean scope - Prototype" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +16,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="174" />
+    <option name="cachedIndexableFilesCount" value="200" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">
@@ -68,61 +66,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0172267130179787E-287" />
-      <entry key="MS500" value="4.977006481550549E-58" />
-      <entry key="S2" value="8.916107683940643E-15" />
-      <entry key="S5" value="5.473282598011065E-6" />
-      <entry key="S10" value="0.0050850855661056585" />
-      <entry key="S30" value="0.5001026447499576" />
-      <entry key="S60" value="1.6383113862103158" />
-      <entry key="M2" value="3.512962493009589" />
-      <entry key="M5" value="7.346695774430371" />
-      <entry key="M10" value="12.182747345532423" />
-      <entry key="M15" value="17.328095962999882" />
-      <entry key="M30" value="30.606717566535238" />
-      <entry key="H1" value="46.21256157721391" />
-      <entry key="H2" value="67.0931867412165" />
-      <entry key="H4" value="99.37492991085189" />
-      <entry key="D1" value="220.51475623757938" />
-      <entry key="W1" value="318.2777303210133" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000005508152754" />
+      <entry key="S5" value="1.007877753553864" />
+      <entry key="S10" value="1.0887567099089641" />
+      <entry key="S30" value="1.4460673112377305" />
+      <entry key="S60" value="1.6678831078517902" />
+      <entry key="M2" value="1.8181627042166935" />
+      <entry key="M5" value="2.0666079023750767" />
+      <entry key="M10" value="3.2166655686689913" />
+      <entry key="M15" value="5.094203972727674" />
+      <entry key="M30" value="12.550387955220305" />
+      <entry key="H1" value="28.916747654962794" />
+      <entry key="H2" value="58.66800089442995" />
+      <entry key="H4" value="112.07301018785218" />
+      <entry key="D1" value="334.5129547688223" />
+      <entry key="W1" value="494.14906987286867" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000040043513627" />
-      <entry key="MS500" value="1.0832734265682513" />
-      <entry key="S2" value="1.537188378857184" />
-      <entry key="S5" value="1.7799210526697422" />
-      <entry key="S10" value="1.8831325717565859" />
-      <entry key="S30" value="1.9702335663181507" />
-      <entry key="S60" value="2.104309855945882" />
-      <entry key="M2" value="2.520162296563238" />
-      <entry key="M5" value="3.801371595992944" />
-      <entry key="M10" value="9.307604407546098" />
-      <entry key="M15" value="17.753379735979713" />
-      <entry key="M30" value="40.111677910834445" />
-      <entry key="H1" value="64.72572184178311" />
-      <entry key="H2" value="94.68020646917604" />
-      <entry key="H4" value="137.86445071203738" />
-      <entry key="D1" value="264.5561560257954" />
-      <entry key="W1" value="338.9958853124528" />
+      <entry key="MS100" value="3.7424593780214785E-28" />
+      <entry key="MS500" value="3.2706300225607713E-6" />
+      <entry key="S2" value="0.04252754820737755" />
+      <entry key="S5" value="0.28710448101872527" />
+      <entry key="S10" value="0.5974686747547321" />
+      <entry key="S30" value="1.2136605775671272" />
+      <entry key="S60" value="1.5353032570881149" />
+      <entry key="M2" value="1.7461970309861863" />
+      <entry key="M5" value="2.036666592838687" />
+      <entry key="M10" value="3.7536443841565643" />
+      <entry key="M15" value="6.672338181529206" />
+      <entry key="M30" value="16.941455051712516" />
+      <entry key="H1" value="37.71426719226725" />
+      <entry key="H2" value="78.57650889692331" />
+      <entry key="H4" value="159.5928805623588" />
+      <entry key="D1" value="465.8574055682072" />
+      <entry key="W1" value="630.5746912606695" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.47402608793788E-6" />
-      <entry key="MS500" value="0.0920563909508082" />
-      <entry key="S2" value="0.8285468592919567" />
-      <entry key="S5" value="1.3897665827059276" />
-      <entry key="S10" value="1.6690081359250035" />
-      <entry key="S30" value="2.3908592739221874" />
-      <entry key="S60" value="3.6995675349142534" />
-      <entry key="M2" value="6.003056536566817" />
-      <entry key="M5" value="11.1243393318987" />
-      <entry key="M10" value="21.464029922514847" />
-      <entry key="M15" value="35.050839364701346" />
-      <entry key="M30" value="70.68620590578328" />
-      <entry key="H1" value="110.91295584196457" />
-      <entry key="H2" value="161.754821272481" />
-      <entry key="H4" value="237.2254643604115" />
-      <entry key="D1" value="485.0659092190637" />
-      <entry key="W1" value="657.2726247151645" />
+      <entry key="MS100" value="1.4335979449676677E-5" />
+      <entry key="MS500" value="0.10747034949132132" />
+      <entry key="S2" value="0.6023633303643344" />
+      <entry key="S5" value="1.053168306225533" />
+      <entry key="S10" value="1.5144514210198812" />
+      <entry key="S30" value="2.547510577017536" />
+      <entry key="S60" value="3.1302349728484717" />
+      <entry key="M2" value="3.5221350643943947" />
+      <entry key="M5" value="4.082788787845292" />
+      <entry key="M10" value="6.952398124318584" />
+      <entry key="M15" value="11.747264861677907" />
+      <entry key="M30" value="29.47038211228431" />
+      <entry key="H1" value="66.60858457585282" />
+      <entry key="H2" value="137.2224660184432" />
+      <entry key="H4" value="271.645092272107" />
+      <entry key="D1" value="800.3608284372929" />
+      <entry key="W1" value="1124.7218745833836" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -147,8 +145,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.BankAccountRegistrationApplication.executor": "Run",
     "Spring Boot.CinemaxifyApplication (1).executor": "Run",
     "Spring Boot.CinemaxifyApplication.executor": "Run",
+    "Spring Boot.EventRegistrationApplication (1).executor": "Run",
+    "Spring Boot.EventRegistrationApplication.executor": "Run",
     "Spring Boot.VaccinationApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
@@ -164,7 +165,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SocialMediaApplication">
+  <component name="RunManager" selected="Spring Boot.BankAccountRegistrationApplication">
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sagar.demo.DemoApplication" />
       <module name="demo.main" />
@@ -191,6 +192,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankAccountRegistrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Bank-Account-Registration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codingNinjas.Bank.Account.Registration.BankAccountRegistrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CinemaxifyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Cinemaxify (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Cinemaxify.CinemaxifyApplication" />
@@ -201,6 +209,20 @@
     <configuration name="CinemaxifyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Cinemaxify" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Cinemaxify.CinemaxifyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventRegistrationApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EventResigtration (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EventRegistration.EventRegistrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventRegistrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EventResigtration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EventRegistration.EventRegistrationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,7 +264,8 @@
       <option name="presentableId" value="Default" />
       <updated>1781001199028</updated>
       <workItem from="1781001200246" duration="6358000" />
-      <workItem from="1781066250913" duration="22625000" />
+      <workItem from="1781066250913" duration="33407000" />
+      <workItem from="1781237856418" duration="19601000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -316,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781182000465</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="bean scope - Prototype">
+      <option name="closed" value="true" />
+      <created>1781182076014</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1781182076014</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +374,8 @@
     <MESSAGE value="DI using Setter Method" />
     <MESSAGE value="bean scope - Singleton failure" />
     <MESSAGE value="bean scope - Singleton Failure" />
-    <option name="LAST_COMMIT_MESSAGE" value="bean scope - Singleton Failure" />
+    <MESSAGE value="bean scope - Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="bean scope - Prototype" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

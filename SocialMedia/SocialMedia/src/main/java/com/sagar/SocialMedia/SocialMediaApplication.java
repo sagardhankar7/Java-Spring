@@ -9,8 +9,16 @@ public class SocialMediaApplication {
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		Post post;
-		PostList postList = (PostList) context.getBean("simplePostList");
 		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Welcome to Social Media Application!");
+		System.out.println("Please enter your username");
+		String username = scanner.nextLine();
+		User user = (User) context.getBean("simpleUser");
+		user.setUserName(username);
+
+//		PostList postList = (PostList) context.getBean("simplePostList");
+		PostList postList = user.getPostList();
 
 		while (true) {
 			System.out.println("1. Create a post\n2. Get All Posts");
@@ -26,7 +34,7 @@ public class SocialMediaApplication {
 					break;
 				case 2:
 					for (int i = 0; i < postList.size(); i++) {
-						String pm = postList.getPost(i).getMessage();
+						String pm = user.getUserName()+ "'s "+(i+1)+"th Post - "+postList.getPost(i).getMessage();
 						System.out.println(pm);
 					}
 					break;

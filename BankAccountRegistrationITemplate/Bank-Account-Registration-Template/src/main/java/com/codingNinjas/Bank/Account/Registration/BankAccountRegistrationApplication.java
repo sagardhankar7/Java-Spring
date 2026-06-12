@@ -27,7 +27,7 @@ public class BankAccountRegistrationApplication {
 					int accountType = Integer.parseInt(scanner.nextLine());
 					System.out.println("Enter the opening balance");
 					int openingBalance = Integer.parseInt(scanner.nextLine());
-					Account account;
+					Account account=null;
 					switch (accountType) {
 						case 1:
 							account = (Account) context.getBean("currentAccount");
@@ -38,7 +38,7 @@ public class BankAccountRegistrationApplication {
 							break;
 						default:
 							System.out.println("Invalid account type");
-							return;
+							break;
 					}
 					account.addBalance(openingBalance);
 					user.addAccount(account);
@@ -49,14 +49,16 @@ public class BankAccountRegistrationApplication {
 					for(Account account1 : user.getAllAccounts()) {
 						System.out.println(account1.getAccountType() + " account : opening balance - "+ account1.getBalance()+ " Reference Id @"+ account1.toString().split("@")[1]);
 					}
-					return;
+					break;
 				default:
 					System.out.println("Invalid option");
-					return;
+					break;
 			}
 
-
+			if (option > 1) break;
 		}
+
+		context.close();
 
 //		System.out.println("User account list:");
 

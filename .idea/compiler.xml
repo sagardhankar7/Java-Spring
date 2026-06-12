@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Bank-Account-Registration" />
-        <module name="Cinemaxify (1)" />
         <module name="EventResigtration (1)" />
         <module name="Cinemaxify" />
+        <module name="EventResigtration (2)" />
         <module name="Vaccination" />
         <module name="EventResigtration" />
+        <module name="Cinemaxify (1)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -22,6 +23,7 @@
       <module name="Cinemaxify (1)" options="-parameters" />
       <module name="EventResigtration" options="-parameters" />
       <module name="EventResigtration (1)" options="-parameters" />
+      <module name="EventResigtration (2)" options="-parameters" />
       <module name="SocialMedia" options="-parameters" />
       <module name="SocialMedia.main" options="-parameters" />
       <module name="SocialMedia.test" options="-parameters" />

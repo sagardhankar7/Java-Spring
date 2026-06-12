@@ -35,4 +35,8 @@ public class currentAccount implements Account{
     public void setAmount(double amount) {
         this.amount = amount;
     }
+
+    private void init() {
+        System.out.println("currentAccount bean created!!");
+    }
 }

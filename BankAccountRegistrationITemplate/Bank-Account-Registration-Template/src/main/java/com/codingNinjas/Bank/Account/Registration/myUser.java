@@ -59,4 +59,12 @@ public class myUser implements User{
     public void setSavingsAccount(savingsAccount savingsAccount) {
         accountList.add(savingsAccount);
     }
+
+    private void init() {
+        System.out.println("myUser bean created!!");
+    }
+
+    private void destroy() {
+        System.out.println("myUser bean destroyed!!");
+    }
 }

@@ -34,4 +34,8 @@ public class savingsAccount implements Account{
     public void setAmount(double amount) {
         this.amount = amount;
     }
+
+    private void init() {
+        System.out.println("savingsAccount bean created!!");
+    }
 }

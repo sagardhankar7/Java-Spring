@@ -2,14 +2,14 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="currentAccount" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.currentAccount">
+    <bean id="currentAccount" init-method="init" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.currentAccount">
 <!--        <property name="amount" value="0.0"/>-->
     </bean>
-    <bean id="savingsAccount" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.savingsAccount">
+    <bean id="savingsAccount" init-method="init" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.savingsAccount">
 <!--        <property name="amount" value="0.0"/>-->
     </bean>
 
-    <bean id="myUser" class="com.codingNinjas.Bank.Account.Registration.myUser">
+    <bean id="myUser" init-method="init" destroy-method="destroy" class="com.codingNinjas.Bank.Account.Registration.myUser">
         <property name="name" value=""/>
 <!--        <property name="accountList">-->
 <!--            <list>-->

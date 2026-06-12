@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Bean Scope learn">
-      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePostList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePostList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SocialMediaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SocialMediaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/ApplicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,60 +78,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="3.5246343395146157E-161" />
-      <entry key="S2" value="9.82227836589579E-41" />
-      <entry key="S5" value="1.9347738223377374E-16" />
-      <entry key="S10" value="2.9598708655406032E-8" />
-      <entry key="S30" value="0.010586637280557552" />
-      <entry key="S60" value="0.3111602793730051" />
-      <entry key="M2" value="1.9243503049657376" />
-      <entry key="M5" value="6.237424208965346" />
-      <entry key="M10" value="10.018570937895722" />
-      <entry key="M15" value="12.837322625093183" />
-      <entry key="M30" value="21.08496215383935" />
-      <entry key="H1" value="37.76699860572981" />
-      <entry key="H2" value="67.80846081073933" />
-      <entry key="H4" value="121.49209230433279" />
-      <entry key="D1" value="345.2831769228115" />
-      <entry key="W1" value="505.8914037343994" />
+      <entry key="MS500" value="2.0868950415730004E-148" />
+      <entry key="S2" value="1.2019188649877957E-37" />
+      <entry key="S5" value="1.7058862188134288E-15" />
+      <entry key="S10" value="4.130237546211492E-8" />
+      <entry key="S30" value="0.0034570040759848352" />
+      <entry key="S60" value="0.060438360409834406" />
+      <entry key="M2" value="0.3725780808895927" />
+      <entry key="M5" value="2.7648655007981295" />
+      <entry key="M10" value="7.245238225487179" />
+      <entry key="M15" value="11.248459874091488" />
+      <entry key="M30" value="22.319433832502053" />
+      <entry key="H1" value="42.11610343227282" />
+      <entry key="H2" value="75.66740054003805" />
+      <entry key="H4" value="132.63747450649294" />
+      <entry key="D1" value="368.70605284798086" />
+      <entry key="W1" value="537.6875780771569" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.000000460594334" />
-      <entry key="MS500" value="1.0540335769567415" />
-      <entry key="S2" value="1.4821319691259753" />
-      <entry key="S5" value="1.7469067285561715" />
-      <entry key="S10" value="1.8642376680124668" />
-      <entry key="S30" value="1.9547619055075431" />
-      <entry key="S60" value="2.031621393658076" />
-      <entry key="M2" value="2.3365845883674723" />
-      <entry key="M5" value="3.262795351747562" />
-      <entry key="M10" value="4.9741992033846145" />
-      <entry key="M15" value="7.543652970270966" />
-      <entry key="M30" value="17.166016080723157" />
-      <entry key="H1" value="37.5556144184426" />
-      <entry key="H2" value="78.24325158595501" />
-      <entry key="H4" value="159.1847631787959" />
-      <entry key="D1" value="467.18857409875267" />
-      <entry key="W1" value="633.2516045769885" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000002271473005" />
+      <entry key="S5" value="1.0032885641716565" />
+      <entry key="S10" value="1.0810037807739423" />
+      <entry key="S30" value="1.7743320021568785" />
+      <entry key="S60" value="2.7731092172147056" />
+      <entry key="M2" value="4.274882910027706" />
+      <entry key="M5" value="6.982632269758107" />
+      <entry key="M10" value="9.675461302937123" />
+      <entry key="M15" value="11.541949276167509" />
+      <entry key="M30" value="17.31876535578213" />
+      <entry key="H1" value="32.97751486398182" />
+      <entry key="H2" value="70.15073653382916" />
+      <entry key="H4" value="149.00138365557163" />
+      <entry key="D1" value="469.567991250324" />
+      <entry key="W1" value="646.5844952304946" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.911386966644571E-7" />
-      <entry key="MS500" value="0.057268974999722035" />
-      <entry key="S2" value="0.6354514216094603" />
-      <entry key="S5" value="1.2154171936830673" />
-      <entry key="S10" value="1.5481399993236198" />
-      <entry key="S30" value="1.8460208808728338" />
-      <entry key="S60" value="2.278174568378958" />
-      <entry key="M2" value="4.219814906720598" />
-      <entry key="M5" value="9.473325377109814" />
-      <entry key="M10" value="14.970941478557677" />
-      <entry key="M15" value="20.359518251467843" />
-      <entry key="M30" value="38.22880931911751" />
-      <entry key="H1" value="75.29992634412937" />
-      <entry key="H2" value="146.029529663903" />
-      <entry key="H4" value="280.6559623576373" />
-      <entry key="D1" value="812.4621631864196" />
-      <entry key="W1" value="1139.1411098517276" />
+      <entry key="MS100" value="0.003852471501927183" />
+      <entry key="MS500" value="0.32896363125725203" />
+      <entry key="S2" value="0.7573332683080973" />
+      <entry key="S5" value="0.89709797941459" />
+      <entry key="S10" value="1.0131962777365706" />
+      <entry key="S30" value="1.7145005091134844" />
+      <entry key="S60" value="2.779659343316217" />
+      <entry key="M2" value="4.606024176997807" />
+      <entry key="M5" value="9.714040676335816" />
+      <entry key="M10" value="16.892015737478655" />
+      <entry key="M15" value="22.765427516771645" />
+      <entry key="M30" value="39.61755643912425" />
+      <entry key="H1" value="75.07369798765312" />
+      <entry key="H2" value="145.79787582239837" />
+      <entry key="H4" value="281.61892297543665" />
+      <entry key="D1" value="838.2643180208531" />
+      <entry key="W1" value="1184.2701230307655" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -171,7 +176,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SocialMediaApplication">
+  <component name="RunManager" selected="Spring Boot.BankAccountRegistrationApplication">
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sagar.demo.DemoApplication" />
       <module name="demo.main" />
@@ -226,6 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EventRegistrationApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EventResigtration (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EventRegistration.EventRegistrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EventRegistrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="EventResigtration" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.EventRegistration.EventRegistrationApplication" />
@@ -272,7 +284,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
-      <workItem from="1781263702006" duration="516000" />
+      <workItem from="1781263702006" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -362,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781263795012</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype">
+      <option name="closed" value="true" />
+      <created>1781264309363</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1781264309363</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +411,8 @@
     <MESSAGE value="bean scope - Singleton Failure" />
     <MESSAGE value="bean scope - Prototype" />
     <MESSAGE value="Bean Scope learn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bean Scope learn" />
+    <MESSAGE value="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -5,6 +5,12 @@ import java.util.ArrayList;
 public class SimplePostList implements PostList{
     ArrayList<Post> postList;
 
+    void init() {// this run just after the object is created
+        Post post = new SimplePost();
+        post.setMessage("Hello World from DB");
+        postList.add(post);
+    }
+
     SimplePostList() {
         this.postList = new ArrayList<Post>();
     }

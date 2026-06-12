@@ -6,7 +6,7 @@
 
     <!-- bean definitions here -->
     <bean id="simplePost" class="com.sagar.SocialMedia.SimplePost" scope="prototype"></bean>
-    <bean id="simplePostList" class="com.sagar.SocialMedia.SimplePostList"></bean>
+    <bean id="simplePostList" init-method="init" class="com.sagar.SocialMedia.SimplePostList"></bean>
 
     <bean id="simpleUser" class="com.sagar.SocialMedia.SimpleUser">
         <property name="postList" ref="simplePostList"></property>

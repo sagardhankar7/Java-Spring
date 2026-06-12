@@ -18,7 +18,7 @@ public class SocialMediaApplication {
 		user.setUserName(username);
 
 //		PostList postList = (PostList) context.getBean("simplePostList");
-		PostList postList = user.getPostList();
+		PostList postList = user.getPostList(); // Dependency Injection
 
 		while (true) {
 			System.out.println("1. Create a post\n2. Get All Posts");

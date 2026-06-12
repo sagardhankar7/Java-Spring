@@ -3,6 +3,8 @@ package com.sagar.SocialMedia;
 public class SimplePost implements Post {
     private String message;
 
+
+
     @Override
     public void setMessage(String message) {
         this.message = message;

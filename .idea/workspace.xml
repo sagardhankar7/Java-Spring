@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="bean scope - Prototype" />
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Bean Scope learn">
+      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePostList.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SimplePostList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SocialMediaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/java/com/sagar/SocialMedia/SocialMediaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SocialMedia/SocialMedia/src/main/resources/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +18,11 @@
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/harsh/Desktop/sagar/Java Spring" value="3EtcEsdDH0t8tuISfFqpWjGk1mk" />
+      <entry key="_C:/Users/harsh/Desktop/sagar/Java Spring/EventRegistration II Template/EventRegistration II Template" value="3F2CIuBj1r6CPFO8JCPKa8A3hLZ" />
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="200" />
+    <option name="cachedIndexableFilesCount" value="293" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">
@@ -66,61 +72,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000005508152754" />
-      <entry key="S5" value="1.007877753553864" />
-      <entry key="S10" value="1.0887567099089641" />
-      <entry key="S30" value="1.4460673112377305" />
-      <entry key="S60" value="1.6678831078517902" />
-      <entry key="M2" value="1.8181627042166935" />
-      <entry key="M5" value="2.0666079023750767" />
-      <entry key="M10" value="3.2166655686689913" />
-      <entry key="M15" value="5.094203972727674" />
-      <entry key="M30" value="12.550387955220305" />
-      <entry key="H1" value="28.916747654962794" />
-      <entry key="H2" value="58.66800089442995" />
-      <entry key="H4" value="112.07301018785218" />
-      <entry key="D1" value="334.5129547688223" />
-      <entry key="W1" value="494.14906987286867" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.5246343395146157E-161" />
+      <entry key="S2" value="9.82227836589579E-41" />
+      <entry key="S5" value="1.9347738223377374E-16" />
+      <entry key="S10" value="2.9598708655406032E-8" />
+      <entry key="S30" value="0.010586637280557552" />
+      <entry key="S60" value="0.3111602793730051" />
+      <entry key="M2" value="1.9243503049657376" />
+      <entry key="M5" value="6.237424208965346" />
+      <entry key="M10" value="10.018570937895722" />
+      <entry key="M15" value="12.837322625093183" />
+      <entry key="M30" value="21.08496215383935" />
+      <entry key="H1" value="37.76699860572981" />
+      <entry key="H2" value="67.80846081073933" />
+      <entry key="H4" value="121.49209230433279" />
+      <entry key="D1" value="345.2831769228115" />
+      <entry key="W1" value="505.8914037343994" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.7424593780214785E-28" />
-      <entry key="MS500" value="3.2706300225607713E-6" />
-      <entry key="S2" value="0.04252754820737755" />
-      <entry key="S5" value="0.28710448101872527" />
-      <entry key="S10" value="0.5974686747547321" />
-      <entry key="S30" value="1.2136605775671272" />
-      <entry key="S60" value="1.5353032570881149" />
-      <entry key="M2" value="1.7461970309861863" />
-      <entry key="M5" value="2.036666592838687" />
-      <entry key="M10" value="3.7536443841565643" />
-      <entry key="M15" value="6.672338181529206" />
-      <entry key="M30" value="16.941455051712516" />
-      <entry key="H1" value="37.71426719226725" />
-      <entry key="H2" value="78.57650889692331" />
-      <entry key="H4" value="159.5928805623588" />
-      <entry key="D1" value="465.8574055682072" />
-      <entry key="W1" value="630.5746912606695" />
+      <entry key="MS100" value="1.000000460594334" />
+      <entry key="MS500" value="1.0540335769567415" />
+      <entry key="S2" value="1.4821319691259753" />
+      <entry key="S5" value="1.7469067285561715" />
+      <entry key="S10" value="1.8642376680124668" />
+      <entry key="S30" value="1.9547619055075431" />
+      <entry key="S60" value="2.031621393658076" />
+      <entry key="M2" value="2.3365845883674723" />
+      <entry key="M5" value="3.262795351747562" />
+      <entry key="M10" value="4.9741992033846145" />
+      <entry key="M15" value="7.543652970270966" />
+      <entry key="M30" value="17.166016080723157" />
+      <entry key="H1" value="37.5556144184426" />
+      <entry key="H2" value="78.24325158595501" />
+      <entry key="H4" value="159.1847631787959" />
+      <entry key="D1" value="467.18857409875267" />
+      <entry key="W1" value="633.2516045769885" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4335979449676677E-5" />
-      <entry key="MS500" value="0.10747034949132132" />
-      <entry key="S2" value="0.6023633303643344" />
-      <entry key="S5" value="1.053168306225533" />
-      <entry key="S10" value="1.5144514210198812" />
-      <entry key="S30" value="2.547510577017536" />
-      <entry key="S60" value="3.1302349728484717" />
-      <entry key="M2" value="3.5221350643943947" />
-      <entry key="M5" value="4.082788787845292" />
-      <entry key="M10" value="6.952398124318584" />
-      <entry key="M15" value="11.747264861677907" />
-      <entry key="M30" value="29.47038211228431" />
-      <entry key="H1" value="66.60858457585282" />
-      <entry key="H2" value="137.2224660184432" />
-      <entry key="H4" value="271.645092272107" />
-      <entry key="D1" value="800.3608284372929" />
-      <entry key="W1" value="1124.7218745833836" />
+      <entry key="MS100" value="5.911386966644571E-7" />
+      <entry key="MS500" value="0.057268974999722035" />
+      <entry key="S2" value="0.6354514216094603" />
+      <entry key="S5" value="1.2154171936830673" />
+      <entry key="S10" value="1.5481399993236198" />
+      <entry key="S30" value="1.8460208808728338" />
+      <entry key="S60" value="2.278174568378958" />
+      <entry key="M2" value="4.219814906720598" />
+      <entry key="M5" value="9.473325377109814" />
+      <entry key="M10" value="14.970941478557677" />
+      <entry key="M15" value="20.359518251467843" />
+      <entry key="M30" value="38.22880931911751" />
+      <entry key="H1" value="75.29992634412937" />
+      <entry key="H2" value="146.029529663903" />
+      <entry key="H4" value="280.6559623576373" />
+      <entry key="D1" value="812.4621631864196" />
+      <entry key="W1" value="1139.1411098517276" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -132,40 +138,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.SocialMedia [:com.sagar.SocialMedia.SocialMediaApplication.main()].executor": "Run",
-    "Gradle.demo [:com.sagar.demo.DemoApplication.main()].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.BankAccountRegistrationApplication.executor": "Run",
-    "Spring Boot.CinemaxifyApplication (1).executor": "Run",
-    "Spring Boot.CinemaxifyApplication.executor": "Run",
-    "Spring Boot.EventRegistrationApplication (1).executor": "Run",
-    "Spring Boot.EventRegistrationApplication.executor": "Run",
-    "Spring Boot.VaccinationApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/harsh/Desktop/sagar/Java Spring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.SocialMedia [:com.sagar.SocialMedia.SocialMediaApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.demo [:com.sagar.demo.DemoApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BankAccountRegistrationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CinemaxifyApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CinemaxifyApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EventRegistrationApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EventRegistrationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.VaccinationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/harsh/Desktop/sagar/Java Spring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Spring Boot.BankAccountRegistrationApplication">
+}</component>
+  <component name="RunManager" selected="Application.SocialMediaApplication">
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sagar.demo.DemoApplication" />
       <module name="demo.main" />
@@ -266,6 +272,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
+      <workItem from="1781263702006" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -347,7 +354,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781182076014</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Bean Scope learn">
+      <option name="closed" value="true" />
+      <created>1781263795012</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1781263795012</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +390,8 @@
     <MESSAGE value="bean scope - Singleton failure" />
     <MESSAGE value="bean scope - Singleton Failure" />
     <MESSAGE value="bean scope - Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="bean scope - Prototype" />
+    <MESSAGE value="Bean Scope learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bean Scope learn" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

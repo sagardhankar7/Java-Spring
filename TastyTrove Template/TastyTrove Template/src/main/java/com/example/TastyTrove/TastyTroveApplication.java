@@ -10,8 +10,7 @@ public class TastyTroveApplication {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
-
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.example.TastyTrove");
 		System.out.println("Welcome to Tasty Trove Application");
 
 		// Enter User details
@@ -53,7 +52,8 @@ public class TastyTroveApplication {
 				System.exit(0);
 			}
 		}
-		Recipe myRecipe = (Recipe) context.getBean(recipeType + ingredientType);
+		Recipe myRecipe = context.getBean(recipeType, Recipe.class);
+		myRecipe.setIngredients(ingredientType);
 		myRecipe.setUserName(name);
 		myRecipe.getDetails();
 	}

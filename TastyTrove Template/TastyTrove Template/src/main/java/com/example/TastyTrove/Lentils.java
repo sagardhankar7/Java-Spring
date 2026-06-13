@@ -1,9 +1,12 @@
 package com.example.TastyTrove;
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+@Component
 public class Lentils implements Ingredients {
     private boolean isChinese;
     private boolean isNorthIndian;

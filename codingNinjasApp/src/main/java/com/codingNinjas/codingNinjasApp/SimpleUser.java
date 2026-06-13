@@ -1,5 +1,8 @@
 package com.codingNinjas.codingNinjasApp;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SimpleUser implements User {
 
 	String name;

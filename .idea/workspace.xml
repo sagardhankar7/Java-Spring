@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="init method and destroy method in bean lifecycle">
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Coding Ninjas App - console app">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/CodingNinjasAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/CodingNinjasAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/PaidCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/PaidCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/SimpleUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/SimpleUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/SimpleUserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/SimpleUserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/SpringInstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/codingNinjasApp/src/main/java/com/codingNinjas/codingNinjasApp/SpringInstructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,61 +77,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="6.33221788218221E-157" />
-      <entry key="MS500" value="5.758523851144564E-32" />
-      <entry key="S2" value="1.5490940737355935E-8" />
-      <entry key="S5" value="7.51676749378022E-4" />
-      <entry key="S10" value="0.027416723899831352" />
-      <entry key="S30" value="0.30179001773343767" />
-      <entry key="S60" value="0.596090416220239" />
-      <entry key="M2" value="1.4236553924650388" />
-      <entry key="M5" value="4.443154421439258" />
-      <entry key="M10" value="7.174940192576459" />
-      <entry key="M15" value="8.487237447062833" />
-      <entry key="M30" value="10.075421181860348" />
-      <entry key="H1" value="10.99143844589482" />
-      <entry key="H2" value="11.576696402495562" />
-      <entry key="H4" value="16.45778994936654" />
-      <entry key="D1" value="227.7411728165224" />
-      <entry key="W1" value="520.3182144978682" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.909215297641911E-104" />
+      <entry key="S5" value="5.4421623203887545E-42" />
+      <entry key="S10" value="2.332940060486185E-21" />
+      <entry key="S30" value="1.372022349356418E-7" />
+      <entry key="S60" value="4.325733642867956E-4" />
+      <entry key="M2" value="0.02885330153276197" />
+      <entry key="M5" value="0.7214359173858752" />
+      <entry key="M10" value="4.272235892392328" />
+      <entry key="M15" value="9.027285021294553" />
+      <entry key="M30" value="20.957665703010253" />
+      <entry key="H1" value="33.18799774972877" />
+      <entry key="H2" value="42.255795473676734" />
+      <entry key="H4" value="51.697424989436975" />
+      <entry key="D1" value="262.8793523945915" />
+      <entry key="W1" value="560.1917487421948" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000426106" />
-      <entry key="MS500" value="1.0084355478287512" />
-      <entry key="S2" value="1.3524318230675116" />
-      <entry key="S5" value="2.137085299040259" />
-      <entry key="S10" value="3.3464544907563316" />
-      <entry key="S30" value="6.257684936589663" />
-      <entry key="S60" value="8.624730247031504" />
-      <entry key="M2" value="12.076206720221819" />
-      <entry key="M5" value="17.66972260009646" />
-      <entry key="M10" value="21.101540302389523" />
-      <entry key="M15" value="22.540560637261436" />
-      <entry key="M30" value="24.16416633395557" />
-      <entry key="H1" value="25.05369563165443" />
-      <entry key="H2" value="25.591761460415942" />
-      <entry key="H4" value="30.540986150001533" />
-      <entry key="D1" value="290.6785246705307" />
-      <entry key="W1" value="621.7472304010367" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000230365735" />
+      <entry key="S5" value="1.000884430399441" />
+      <entry key="S10" value="1.0315383581260746" />
+      <entry key="S30" value="1.4342876741893589" />
+      <entry key="S60" value="1.9503039614165587" />
+      <entry key="M2" value="2.6439830704461924" />
+      <entry key="M5" value="5.213946506372538" />
+      <entry key="M10" value="12.79807102320324" />
+      <entry key="M15" value="21.720880733650386" />
+      <entry key="M30" value="42.78759746284995" />
+      <entry key="H1" value="63.574506695837" />
+      <entry key="H2" value="78.62989824555977" />
+      <entry key="H4" value="91.71837046293093" />
+      <entry key="D1" value="353.79326473116276" />
+      <entry key="W1" value="691.1792808864765" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0019667100587045278" />
-      <entry key="MS500" value="0.287580267372809" />
-      <entry key="S2" value="0.813682942645859" />
-      <entry key="S5" value="1.6112960307424822" />
-      <entry key="S10" value="2.9269692330012367" />
-      <entry key="S30" value="6.286196340750328" />
-      <entry key="S60" value="9.037418678018307" />
-      <entry key="M2" value="13.373852267247125" />
-      <entry key="M5" value="22.037590678948426" />
-      <entry key="M10" value="28.230445164706108" />
-      <entry key="M15" value="30.99466290498271" />
-      <entry key="M30" value="34.22160827765024" />
-      <entry key="H1" value="36.03575079739638" />
-      <entry key="H2" value="37.163641323172655" />
-      <entry key="H4" value="46.9957114422522" />
-      <entry key="D1" value="518.4138061159517" />
-      <entry key="W1" value="1142.063589485502" />
+      <entry key="MS100" value="6.595895624602237E-6" />
+      <entry key="MS500" value="0.09201417888551112" />
+      <entry key="S2" value="0.550761657608683" />
+      <entry key="S5" value="0.7884303174899893" />
+      <entry key="S10" value="0.9153063427275508" />
+      <entry key="S30" value="1.3769403360104528" />
+      <entry key="S60" value="1.9105066050741184" />
+      <entry key="M2" value="2.6444554602913026" />
+      <entry key="M5" value="5.902719392985986" />
+      <entry key="M10" value="17.01882161260877" />
+      <entry key="M15" value="30.689019869493425" />
+      <entry key="M30" value="63.688990073238436" />
+      <entry key="H1" value="96.72204120905927" />
+      <entry key="H2" value="120.86114416850474" />
+      <entry key="H4" value="143.40170399647243" />
+      <entry key="D1" value="616.6648244444888" />
+      <entry key="W1" value="1251.3688834848706" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -157,6 +162,7 @@
     "Spring Boot.CinemaxifyApplication.executor": "Run",
     "Spring Boot.EventRegistrationApplication (1).executor": "Run",
     "Spring Boot.EventRegistrationApplication.executor": "Run",
+    "Spring Boot.TastyTroveApplication.executor": "Run",
     "Spring Boot.VaccinationApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
@@ -173,7 +179,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CodingNinjasAppApplication">
+  <component name="RunManager" selected="Spring Boot.TastyTroveApplication">
     <configuration name="CodingNinjasAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingNinjas.codingNinjasApp.CodingNinjasAppApplication" />
       <module name="codingNinjasApp" />
@@ -262,6 +268,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TastyTroveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="TastyTrove" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TastyTrove.TastyTroveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VaccinationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Vaccination" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Vaccination.VaccinationApplication" />
@@ -295,7 +308,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
-      <workItem from="1781263702006" duration="18153000" />
+      <workItem from="1781263702006" duration="23828000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -401,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781268398802</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Coding Ninjas App - console app">
+      <option name="closed" value="true" />
+      <created>1781339547956</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1781339547956</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +453,8 @@
     <MESSAGE value="Bean Scope learn" />
     <MESSAGE value="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype" />
     <MESSAGE value="init method and destroy method in bean lifecycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="init method and destroy method in bean lifecycle" />
+    <MESSAGE value="Coding Ninjas App - console app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coding Ninjas App - console app" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

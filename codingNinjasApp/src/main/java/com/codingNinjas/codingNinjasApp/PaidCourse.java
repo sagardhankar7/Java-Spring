@@ -1,16 +1,22 @@
 package com.codingNinjas.codingNinjasApp;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
+@Component
 class PaidCourse implements Course {
 	String courseName;
-	UserList userList;
-	Instructor courseInstructor;
+	@Autowired
+	SpringInstructor courseInstructor;
+	@Autowired
+	SimpleUserList userList;
 
-	public PaidCourse(Instructor instructor, SimpleUserList simpleUserList) {
-		this.courseInstructor=instructor;
-		this.userList = simpleUserList;
-	}
+//	public PaidCourse(Instructor instructor, SimpleUserList simpleUserList) {
+//		this.courseInstructor=instructor;
+//		this.userList = simpleUserList;
+//	}
 
 	@Override
 	public void setCourseDetails(String courseName) {

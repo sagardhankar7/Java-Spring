@@ -1,5 +1,8 @@
 package com.codingNinjas.codingNinjasApp;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class SpringInstructor implements Instructor {
 
 	String name;

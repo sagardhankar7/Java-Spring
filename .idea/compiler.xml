@@ -13,6 +13,7 @@
         <module name="Vaccination" />
         <module name="EventResigtration" />
         <module name="Cinemaxify (1)" />
+        <module name="codingNinjasApp" />
       </profile>
     </annotationProcessing>
   </component>
@@ -28,6 +29,7 @@
       <module name="SocialMedia.main" options="-parameters" />
       <module name="SocialMedia.test" options="-parameters" />
       <module name="Vaccination" options="-parameters" />
+      <module name="codingNinjasApp" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />

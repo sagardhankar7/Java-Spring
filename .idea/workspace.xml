@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype">
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="init method and destroy method in bean lifecycle">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/ApplicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +22,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="293" />
+    <option name="cachedIndexableFilesCount" value="340" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">
@@ -77,61 +72,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.0868950415730004E-148" />
-      <entry key="S2" value="1.2019188649877957E-37" />
-      <entry key="S5" value="1.7058862188134288E-15" />
-      <entry key="S10" value="4.130237546211492E-8" />
-      <entry key="S30" value="0.0034570040759848352" />
-      <entry key="S60" value="0.060438360409834406" />
-      <entry key="M2" value="0.3725780808895927" />
-      <entry key="M5" value="2.7648655007981295" />
-      <entry key="M10" value="7.245238225487179" />
-      <entry key="M15" value="11.248459874091488" />
-      <entry key="M30" value="22.319433832502053" />
-      <entry key="H1" value="42.11610343227282" />
-      <entry key="H2" value="75.66740054003805" />
-      <entry key="H4" value="132.63747450649294" />
-      <entry key="D1" value="368.70605284798086" />
-      <entry key="W1" value="537.6875780771569" />
+      <entry key="MS100" value="6.33221788218221E-157" />
+      <entry key="MS500" value="5.758523851144564E-32" />
+      <entry key="S2" value="1.5490940737355935E-8" />
+      <entry key="S5" value="7.51676749378022E-4" />
+      <entry key="S10" value="0.027416723899831352" />
+      <entry key="S30" value="0.30179001773343767" />
+      <entry key="S60" value="0.596090416220239" />
+      <entry key="M2" value="1.4236553924650388" />
+      <entry key="M5" value="4.443154421439258" />
+      <entry key="M10" value="7.174940192576459" />
+      <entry key="M15" value="8.487237447062833" />
+      <entry key="M30" value="10.075421181860348" />
+      <entry key="H1" value="10.99143844589482" />
+      <entry key="H2" value="11.576696402495562" />
+      <entry key="H4" value="16.45778994936654" />
+      <entry key="D1" value="227.7411728165224" />
+      <entry key="W1" value="520.3182144978682" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000002271473005" />
-      <entry key="S5" value="1.0032885641716565" />
-      <entry key="S10" value="1.0810037807739423" />
-      <entry key="S30" value="1.7743320021568785" />
-      <entry key="S60" value="2.7731092172147056" />
-      <entry key="M2" value="4.274882910027706" />
-      <entry key="M5" value="6.982632269758107" />
-      <entry key="M10" value="9.675461302937123" />
-      <entry key="M15" value="11.541949276167509" />
-      <entry key="M30" value="17.31876535578213" />
-      <entry key="H1" value="32.97751486398182" />
-      <entry key="H2" value="70.15073653382916" />
-      <entry key="H4" value="149.00138365557163" />
-      <entry key="D1" value="469.567991250324" />
-      <entry key="W1" value="646.5844952304946" />
+      <entry key="MS100" value="1.0000000000426106" />
+      <entry key="MS500" value="1.0084355478287512" />
+      <entry key="S2" value="1.3524318230675116" />
+      <entry key="S5" value="2.137085299040259" />
+      <entry key="S10" value="3.3464544907563316" />
+      <entry key="S30" value="6.257684936589663" />
+      <entry key="S60" value="8.624730247031504" />
+      <entry key="M2" value="12.076206720221819" />
+      <entry key="M5" value="17.66972260009646" />
+      <entry key="M10" value="21.101540302389523" />
+      <entry key="M15" value="22.540560637261436" />
+      <entry key="M30" value="24.16416633395557" />
+      <entry key="H1" value="25.05369563165443" />
+      <entry key="H2" value="25.591761460415942" />
+      <entry key="H4" value="30.540986150001533" />
+      <entry key="D1" value="290.6785246705307" />
+      <entry key="W1" value="621.7472304010367" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.003852471501927183" />
-      <entry key="MS500" value="0.32896363125725203" />
-      <entry key="S2" value="0.7573332683080973" />
-      <entry key="S5" value="0.89709797941459" />
-      <entry key="S10" value="1.0131962777365706" />
-      <entry key="S30" value="1.7145005091134844" />
-      <entry key="S60" value="2.779659343316217" />
-      <entry key="M2" value="4.606024176997807" />
-      <entry key="M5" value="9.714040676335816" />
-      <entry key="M10" value="16.892015737478655" />
-      <entry key="M15" value="22.765427516771645" />
-      <entry key="M30" value="39.61755643912425" />
-      <entry key="H1" value="75.07369798765312" />
-      <entry key="H2" value="145.79787582239837" />
-      <entry key="H4" value="281.61892297543665" />
-      <entry key="D1" value="838.2643180208531" />
-      <entry key="W1" value="1184.2701230307655" />
+      <entry key="MS100" value="0.0019667100587045278" />
+      <entry key="MS500" value="0.287580267372809" />
+      <entry key="S2" value="0.813682942645859" />
+      <entry key="S5" value="1.6112960307424822" />
+      <entry key="S10" value="2.9269692330012367" />
+      <entry key="S30" value="6.286196340750328" />
+      <entry key="S60" value="9.037418678018307" />
+      <entry key="M2" value="13.373852267247125" />
+      <entry key="M5" value="22.037590678948426" />
+      <entry key="M10" value="28.230445164706108" />
+      <entry key="M15" value="30.99466290498271" />
+      <entry key="M30" value="34.22160827765024" />
+      <entry key="H1" value="36.03575079739638" />
+      <entry key="H2" value="37.163641323172655" />
+      <entry key="H4" value="46.9957114422522" />
+      <entry key="D1" value="518.4138061159517" />
+      <entry key="W1" value="1142.063589485502" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -143,40 +138,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.SocialMedia [:com.sagar.SocialMedia.SocialMediaApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.demo [:com.sagar.demo.DemoApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BankAccountRegistrationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CinemaxifyApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CinemaxifyApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EventRegistrationApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EventRegistrationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.VaccinationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/harsh/Desktop/sagar/Java Spring&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CodingNinjasAppApplication.executor": "Run",
+    "Gradle.SocialMedia [:com.sagar.SocialMedia.SocialMediaApplication.main()].executor": "Run",
+    "Gradle.demo [:com.sagar.demo.DemoApplication.main()].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.BankAccountRegistrationApplication.executor": "Run",
+    "Spring Boot.CinemaxifyApplication (1).executor": "Run",
+    "Spring Boot.CinemaxifyApplication.executor": "Run",
+    "Spring Boot.EventRegistrationApplication (1).executor": "Run",
+    "Spring Boot.EventRegistrationApplication.executor": "Run",
+    "Spring Boot.VaccinationApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/harsh/Desktop/sagar/Java Spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Spring Boot.BankAccountRegistrationApplication">
+}]]></component>
+  <component name="RunManager" selected="Application.CodingNinjasAppApplication">
+    <configuration name="CodingNinjasAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.codingNinjas.codingNinjasApp.CodingNinjasAppApplication" />
+      <module name="codingNinjasApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codingNinjas.codingNinjasApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sagar.demo.DemoApplication" />
       <module name="demo.main" />
@@ -261,6 +271,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodingNinjasAppApplication" />
         <item itemvalue="Application.SocialMediaApplication" />
         <item itemvalue="Application.DemoApplication" />
       </list>
@@ -284,7 +295,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
-      <workItem from="1781263702006" duration="2992000" />
+      <workItem from="1781263702006" duration="18153000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -382,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781264309363</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="init method and destroy method in bean lifecycle">
+      <option name="closed" value="true" />
+      <created>1781268398802</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1781268398802</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +431,8 @@
     <MESSAGE value="bean scope - Prototype" />
     <MESSAGE value="Bean Scope learn" />
     <MESSAGE value="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="init method (SimplePostList) to initialize postList&#10;&#10;init possible on Singleton and Prototype" />
+    <MESSAGE value="init method and destroy method in bean lifecycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="init method and destroy method in bean lifecycle" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

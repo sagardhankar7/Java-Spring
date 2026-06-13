@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Recipe app - XML configuration context based">
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Recipe app - Field Injection">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Chinese.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Chinese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Lentils.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Lentils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/NorthIndian.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/NorthIndian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Recipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Rice.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Rice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/SouthIndian.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/SouthIndian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/TastyTroveApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/TastyTroveApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Wheat.java" beforeDir="false" afterPath="$PROJECT_DIR$/TastyTrove Template/TastyTrove Template/src/main/java/com/example/TastyTrove/Wheat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,61 +72,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="3.4199770808419925E-28" />
-      <entry key="MS500" value="3.2158943465220315E-6" />
-      <entry key="S2" value="0.05012332505595193" />
-      <entry key="S5" value="0.42568848857960484" />
-      <entry key="S10" value="0.9100176167614039" />
-      <entry key="S30" value="1.5960259650767514" />
-      <entry key="S60" value="2.394075227584941" />
-      <entry key="M2" value="4.480890772801594" />
-      <entry key="M5" value="9.40120862439051" />
-      <entry key="M10" value="13.927497317212014" />
-      <entry key="M15" value="16.96054352767214" />
-      <entry key="M30" value="22.58644049682181" />
-      <entry key="H1" value="30.5232389399278" />
-      <entry key="H2" value="43.93227087261575" />
-      <entry key="H4" value="61.36107869462963" />
-      <entry key="D1" value="273.00750008173054" />
-      <entry key="W1" value="586.0127891460041" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000004674" />
-      <entry key="S5" value="1.0000162770368772" />
-      <entry key="S10" value="1.006579523308402" />
-      <entry key="S30" value="1.5795962843630527" />
-      <entry key="S60" value="3.583065364191055" />
-      <entry key="M2" value="7.462279203484321" />
-      <entry key="M5" value="13.802555114381478" />
-      <entry key="M10" value="18.605858443035782" />
-      <entry key="M15" value="21.51318208392346" />
-      <entry key="M30" value="26.8245991609547" />
-      <entry key="H1" value="37.284772658534955" />
-      <entry key="H2" value="59.02671897821745" />
-      <entry key="H4" value="87.09653879630825" />
-      <entry key="D1" value="358.18617719409934" />
-      <entry key="W1" value="717.3417713519852" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000000002" />
+      <entry key="S30" value="1.0000081810595622" />
+      <entry key="S60" value="1.0047884186973979" />
+      <entry key="M2" value="1.1409983573953417" />
+      <entry key="M5" value="2.172209196459262" />
+      <entry key="M10" value="3.4133088965898004" />
+      <entry key="M15" value="4.110582686723083" />
+      <entry key="M30" value="6.006544122869067" />
+      <entry key="H1" value="12.331508601153754" />
+      <entry key="H2" value="27.05009407919147" />
+      <entry key="H4" value="49.409115362576536" />
+      <entry key="D1" value="264.7545504851624" />
+      <entry key="W1" value="590.2940111261489" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="2.0367575799437715E-24" />
+      <entry key="MS500" value="1.8272074960615986E-5" />
+      <entry key="S2" value="0.06538030873703309" />
+      <entry key="S5" value="0.3358758564303242" />
+      <entry key="S10" value="0.5795479759522283" />
+      <entry key="S30" value="0.8337504908781748" />
+      <entry key="S60" value="0.9214876695373223" />
+      <entry key="M2" value="1.2308782434324608" />
+      <entry key="M5" value="3.438627610757502" />
+      <entry key="M10" value="6.170173418401639" />
+      <entry key="M15" value="7.675737615367235" />
+      <entry key="M30" value="10.56274117221282" />
+      <entry key="H1" value="17.951525911945616" />
+      <entry key="H2" value="37.36671507293629" />
+      <entry key="H4" value="69.50707552850749" />
+      <entry key="D1" value="346.5156022479729" />
+      <entry key="W1" value="722.3788098868497" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.161992717227196E-15" />
-      <entry key="MS500" value="0.0015218733717208722" />
-      <entry key="S2" value="0.21590840375557177" />
-      <entry key="S5" value="0.802240448272438" />
-      <entry key="S10" value="1.4627502755577009" />
-      <entry key="S30" value="2.9383266047938714" />
-      <entry key="S60" value="5.804860072421277" />
-      <entry key="M2" value="11.810139345714747" />
-      <entry key="M5" value="23.116432277201326" />
-      <entry key="M10" value="32.47440181120133" />
-      <entry key="M15" value="38.42736303393741" />
-      <entry key="M30" value="49.38085198144699" />
-      <entry key="H1" value="67.7860596486493" />
-      <entry key="H2" value="102.94117014419194" />
-      <entry key="H4" value="148.44442717008437" />
-      <entry key="D1" value="631.1856899265703" />
-      <entry key="W1" value="1303.3523174305892" />
+      <entry key="MS100" value="0.002167127875132509" />
+      <entry key="MS500" value="0.29321133921347753" />
+      <entry key="S2" value="0.7760210558587257" />
+      <entry key="S5" value="1.1609347796135028" />
+      <entry key="S10" value="1.4662322967831247" />
+      <entry key="S30" value="1.786868258354113" />
+      <entry key="S60" value="1.9010664856360873" />
+      <entry key="M2" value="2.3540492187005424" />
+      <entry key="M5" value="5.5886688157957165" />
+      <entry key="M10" value="9.563319264510216" />
+      <entry key="M15" value="11.769578591866672" />
+      <entry key="M30" value="16.55773101236328" />
+      <entry key="H1" value="30.27293231882137" />
+      <entry key="H2" value="64.40586099743818" />
+      <entry key="H4" value="118.90584130311281" />
+      <entry key="D1" value="611.2624206817978" />
+      <entry key="W1" value="1312.6705607802242" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -163,6 +158,7 @@
     "Spring Boot.EventRegistrationApplication (1).executor": "Run",
     "Spring Boot.EventRegistrationApplication.executor": "Run",
     "Spring Boot.TastyTroveApplication.executor": "Run",
+    "Spring Boot.TuneInApplication.executor": "Run",
     "Spring Boot.VaccinationApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
@@ -179,7 +175,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.TastyTroveApplication">
+  <component name="RunManager" selected="Spring Boot.TuneInApplication">
     <configuration name="CodingNinjasAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingNinjas.codingNinjasApp.CodingNinjasAppApplication" />
       <module name="codingNinjasApp" />
@@ -275,6 +271,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TuneInApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="TuneIn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.TuneIn.TuneInApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VaccinationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Vaccination" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Vaccination.VaccinationApplication" />
@@ -308,7 +311,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
-      <workItem from="1781263702006" duration="27298000" />
+      <workItem from="1781263702006" duration="31699000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -430,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781351524236</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Recipe app - Field Injection">
+      <option name="closed" value="true" />
+      <created>1781355024677</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1781355024677</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +474,8 @@
     <MESSAGE value="init method and destroy method in bean lifecycle" />
     <MESSAGE value="Coding Ninjas App - console app" />
     <MESSAGE value="Recipe app - XML configuration context based" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recipe app - XML configuration context based" />
+    <MESSAGE value="Recipe app - Field Injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recipe app - Field Injection" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

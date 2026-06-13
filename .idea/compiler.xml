@@ -12,6 +12,7 @@
         <module name="EventResigtration (2)" />
         <module name="TastyTrove" />
         <module name="Vaccination" />
+        <module name="TuneIn" />
         <module name="EventResigtration" />
         <module name="Cinemaxify (1)" />
         <module name="codingNinjasApp" />
@@ -30,6 +31,7 @@
       <module name="SocialMedia.main" options="-parameters" />
       <module name="SocialMedia.test" options="-parameters" />
       <module name="TastyTrove" options="-parameters" />
+      <module name="TuneIn" options="-parameters" />
       <module name="Vaccination" options="-parameters" />
       <module name="codingNinjasApp" options="-parameters" />
       <module name="demo" options="-parameters" />

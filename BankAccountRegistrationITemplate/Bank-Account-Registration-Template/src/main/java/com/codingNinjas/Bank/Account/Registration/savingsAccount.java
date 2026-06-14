@@ -1,5 +1,9 @@
 package com.codingNinjas.Bank.Account.Registration;
 
+import jakarta.annotation.PostConstruct;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 /**
   This class is an implementation of a "Account" Interface based on the selection 
   done in the console for account type. You need to complete this class
@@ -11,7 +15,8 @@ package com.codingNinjas.Bank.Account.Registration;
    c. Build the logic for all the methods based on the description mentioned in the Account Interface.
 
 **/
-
+@Component
+@Scope("prototype")
 public class savingsAccount implements Account{
 
     double amount;
@@ -34,7 +39,7 @@ public class savingsAccount implements Account{
     public void setAmount(double amount) {
         this.amount = amount;
     }
-
+    @PostConstruct
     private void init() {
         System.out.println("savingsAccount bean created!!");
     }

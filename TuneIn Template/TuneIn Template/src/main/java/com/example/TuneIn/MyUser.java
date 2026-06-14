@@ -3,7 +3,7 @@ package com.example.TuneIn;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component("user")
+@Component("myUser")
 public class MyUser implements User {
 
     private String name;

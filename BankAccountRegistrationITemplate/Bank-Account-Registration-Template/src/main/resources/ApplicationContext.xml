@@ -3,10 +3,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="currentAccount" init-method="init" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.currentAccount">
-<!--        <property name="amount" value="0.0"/>-->
     </bean>
+
     <bean id="savingsAccount" init-method="init" scope="prototype" class="com.codingNinjas.Bank.Account.Registration.savingsAccount">
-<!--        <property name="amount" value="0.0"/>-->
     </bean>
 
     <bean id="myUser" init-method="init" destroy-method="destroy" class="com.codingNinjas.Bank.Account.Registration.myUser">

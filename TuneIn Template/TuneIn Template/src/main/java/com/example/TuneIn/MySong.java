@@ -1,8 +1,10 @@
 package com.example.TuneIn;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-@Component("song")
+@Component
+@Scope("prototype")
 public class MySong implements Song {
     private String name;
 

@@ -16,7 +16,7 @@ public class TuneInApplication {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.example.TuneIn");
         System.out.println("Welcome to Music Playlist Application");
 
-        User user = (User) context.getBean("user");
+        User user = (User) context.getBean("myUser");
         // Enter User details
         System.out.println("What is your name?");
         String name = scanner.nextLine();
@@ -34,7 +34,7 @@ public class TuneInApplication {
             } else {
                 System.out.println("Enter name of the song");
                 String songName = scanner.nextLine();
-                Song song = (Song) context.getBean("song");
+                Song song = (Song) context.getBean("mySong");
                 song.setName(songName);
                 user.getPlaylist().addSong(song);
             }

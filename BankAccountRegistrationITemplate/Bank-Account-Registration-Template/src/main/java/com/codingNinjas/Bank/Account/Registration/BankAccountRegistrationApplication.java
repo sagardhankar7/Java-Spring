@@ -1,6 +1,7 @@
 package com.codingNinjas.Bank.Account.Registration;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Scanner;
@@ -9,12 +10,13 @@ import java.util.Scanner;
 public class BankAccountRegistrationApplication {
 
 	public static void main(String[] args) {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.codingNinjas.Bank.Account.Registration");
 
 		System.out.println( "Welcome to the Account Registration Application!");
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Please enter your name?");
 		String name = scanner.nextLine();
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+//		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 		User user = (User) context.getBean("myUser");
 		user.setUserDetails(name);
 

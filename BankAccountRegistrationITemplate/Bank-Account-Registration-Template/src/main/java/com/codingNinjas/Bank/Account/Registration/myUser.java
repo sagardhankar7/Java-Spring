@@ -67,12 +67,12 @@ public class myUser implements User{
     }
 
     @PostConstruct
-    private void init() {
+    public void init() {
         System.out.println("myUser bean created!!");
     }
 
     @PreDestroy
-    private void destroy() {
+    public void destroy() {
         System.out.println("myUser bean destroyed!!");
     }
 }

@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Song Playlist App">
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Bank App using Annotation Context">
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/BookList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/MyAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/SimpleBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/SimpleBookList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/SimpleStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/ApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneIn Template/TuneIn Template/src/main/java/com/example/TuneIn/MySong.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuneIn Template/TuneIn Template/src/main/java/com/example/TuneIn/MySong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneIn Template/TuneIn Template/src/main/java/com/example/TuneIn/MyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuneIn Template/TuneIn Template/src/main/java/com/example/TuneIn/MyUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TuneIn Template/TuneIn Template/src/main/java/com/example/TuneIn/TuneInApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/TuneIn Template/TuneIn Template/src/main/java/com/example/TuneIn/TuneInApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
@@ -27,10 +40,13 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="383" />
+    <option name="cachedIndexableFilesCount" value="401" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/ReadWell/ReadWell">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/SocialMedia/SocialMedia">
       <ProjectState />
     </projectState>
@@ -77,61 +93,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="9.763623104678051E-175" />
-      <entry key="MS500" value="1.5773286846364618E-35" />
-      <entry key="S2" value="1.9931621990710882E-9" />
-      <entry key="S5" value="3.420313288205428E-4" />
-      <entry key="S10" value="0.02251018942837152" />
-      <entry key="S30" value="0.5219768931332743" />
-      <entry key="S60" value="1.3333746514746558" />
-      <entry key="M2" value="2.3783351280156872" />
-      <entry key="M5" value="3.6223075619833045" />
-      <entry key="M10" value="4.236368872772016" />
-      <entry key="M15" value="4.472343627850779" />
-      <entry key="M30" value="4.72636491472883" />
-      <entry key="H1" value="4.86745118028421" />
-      <entry key="H2" value="5.06835297197941" />
-      <entry key="H4" value="6.864693642544617" />
-      <entry key="D1" value="153.40281701826248" />
-      <entry key="W1" value="552.6828074243474" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0001886500367303" />
+      <entry key="S2" value="1.1183091569845842" />
+      <entry key="S5" value="1.523971338962963" />
+      <entry key="S10" value="2.097989249352917" />
+      <entry key="S30" value="3.08025639058835" />
+      <entry key="S60" value="3.4918661938771836" />
+      <entry key="M2" value="3.8059140979117494" />
+      <entry key="M5" value="4.534718453998156" />
+      <entry key="M10" value="5.3240014650764085" />
+      <entry key="M15" value="5.809167657984989" />
+      <entry key="M30" value="8.302110876377817" />
+      <entry key="H1" value="20.425023291124376" />
+      <entry key="H2" value="49.269103422159056" />
+      <entry key="H4" value="87.9833656548427" />
+      <entry key="D1" value="238.88248803745824" />
+      <entry key="W1" value="685.1261159294554" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000280010968" />
-      <entry key="S2" value="1.0139682898307687" />
-      <entry key="S5" value="1.2401178459240667" />
-      <entry key="S10" value="1.7051330157402198" />
-      <entry key="S30" value="3.3173322419668994" />
-      <entry key="S60" value="5.605639050142527" />
-      <entry key="M2" value="9.055235436686596" />
-      <entry key="M5" value="13.62442765489236" />
-      <entry key="M10" value="15.989960064989733" />
-      <entry key="M15" value="16.912908251134063" />
-      <entry key="M30" value="17.91381290093383" />
-      <entry key="H1" value="18.452642771193744" />
-      <entry key="H2" value="18.863480922456404" />
-      <entry key="H4" value="21.178775925356355" />
-      <entry key="D1" value="209.70957891402142" />
-      <entry key="W1" value="684.1047643448559" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.0658048929865432E-307" />
+      <entry key="S2" value="1.914561032676756E-77" />
+      <entry key="S5" value="2.6580429720544E-31" />
+      <entry key="S10" value="7.030652041674703E-16" />
+      <entry key="S30" value="1.4066481336219733E-5" />
+      <entry key="S60" value="0.0057525924988895555" />
+      <entry key="M2" value="0.1402465918312249" />
+      <entry key="M5" value="1.1296938152382765" />
+      <entry key="M10" value="2.3566313168786133" />
+      <entry key="M15" value="3.1100742501898426" />
+      <entry key="M30" value="6.868060831994291" />
+      <entry key="H1" value="25.852953533671926" />
+      <entry key="H2" value="68.64844274927836" />
+      <entry key="H4" value="119.81560150449832" />
+      <entry key="D1" value="306.5070292539856" />
+      <entry key="W1" value="842.6444039511548" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.592512842330354E-7" />
-      <entry key="MS500" value="0.05617219752631607" />
-      <entry key="S2" value="0.49405696582719827" />
-      <entry key="S5" value="0.9316859345406665" />
-      <entry key="S10" value="1.494584615608847" />
-      <entry key="S30" value="3.6517445480225863" />
-      <entry key="S60" value="6.769405359090441" />
-      <entry key="M2" value="11.296075890265135" />
-      <entry key="M5" value="17.165134979933516" />
-      <entry key="M10" value="20.17878299100081" />
-      <entry key="M15" value="21.351811194649315" />
-      <entry key="M30" value="22.62251512826167" />
-      <entry key="H1" value="23.311010948363414" />
-      <entry key="H2" value="23.92720595048565" />
-      <entry key="H4" value="28.040847279818017" />
-      <entry key="D1" value="363.1077732301514" />
-      <entry key="W1" value="1236.7854390830998" />
+      <entry key="MS100" value="0.18556544632863112" />
+      <entry key="MS500" value="0.7141357559274566" />
+      <entry key="S2" value="1.0278196804543618" />
+      <entry key="S5" value="1.4739788566751117" />
+      <entry key="S10" value="2.064467482783788" />
+      <entry key="S30" value="3.0645065459912395" />
+      <entry key="S60" value="3.4886991196957284" />
+      <entry key="M2" value="3.9401815516384793" />
+      <entry key="M5" value="5.65807420240791" />
+      <entry key="M10" value="7.674971827711761" />
+      <entry key="M15" value="8.914404489189014" />
+      <entry key="M30" value="15.164634551042827" />
+      <entry key="H1" value="46.26730035045072" />
+      <entry key="H2" value="117.90343076182495" />
+      <entry key="H4" value="207.78659570837146" />
+      <entry key="D1" value="545.3836601184241" />
+      <entry key="W1" value="1527.7680235800594" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -148,6 +164,7 @@
     "Application.BankAccountRegistrationApplication.executor": "Run",
     "Application.CodingNinjasAppApplication.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Gradle.Build ReadWell.executor": "Run",
     "Gradle.Build SocialMedia.executor": "Run",
     "Gradle.Build demo.executor": "Run",
     "Gradle.SocialMedia [:com.sagar.SocialMedia.SocialMediaApplication.main()].executor": "Run",
@@ -166,6 +183,9 @@
     "Spring Boot.CinemaxifyApplication.executor": "Run",
     "Spring Boot.EventRegistrationApplication (1).executor": "Run",
     "Spring Boot.EventRegistrationApplication.executor": "Run",
+    "Spring Boot.MvcDemoApplication (1).executor": "Run",
+    "Spring Boot.MvcDemoApplication.executor": "Run",
+    "Spring Boot.ReadWellApplication.executor": "Run",
     "Spring Boot.TastyTroveApplication.executor": "Run",
     "Spring Boot.TuneInApplication.executor": "Run",
     "Spring Boot.VaccinationApplication.executor": "Run",
@@ -180,11 +200,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BankAccountRegistrationApplication">
+  <component name="RunManager" selected="Spring Boot.MvcDemoApplication">
     <configuration name="BankAccountRegistrationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingNinjas.Bank.Account.Registration.BankAccountRegistrationApplication" />
       <module name="Bank-Account-Registration" />
@@ -285,6 +305,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MvcDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="mvc-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mvc.MvcDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MvcDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mvc_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sagar.mvc_demo.MvcDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadWellApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ReadWell.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Sagar.ReadWell.ReadWellApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocialMediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SocialMedia.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sagar.SocialMedia.SocialMediaApplication" />
@@ -341,7 +383,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
-      <workItem from="1781263702006" duration="39591000" />
+      <workItem from="1781263702006" duration="66234000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -479,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781362652159</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Bank App using Annotation Context">
+      <option name="closed" value="true" />
+      <created>1781448969994</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1781448969994</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +564,12 @@
     <MESSAGE value="Recipe app - XML configuration context based" />
     <MESSAGE value="Recipe app - Field Injection" />
     <MESSAGE value="Song Playlist App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Song Playlist App" />
+    <MESSAGE value="Bank App using Annotation Context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bank App using Annotation Context" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

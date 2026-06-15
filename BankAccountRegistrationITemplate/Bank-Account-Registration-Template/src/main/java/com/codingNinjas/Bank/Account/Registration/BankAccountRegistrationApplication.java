@@ -1,6 +1,8 @@
 package com.codingNinjas.Bank.Account.Registration;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,7 +12,8 @@ import java.util.Scanner;
 public class BankAccountRegistrationApplication {
 
 	public static void main(String[] args) {
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.codingNinjas.Bank.Account.Registration");
+		ApplicationContext context = SpringApplication.run(BankAccountRegistrationApplication.class,args);
+//		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("com.codingNinjas.Bank.Account.Registration");
 
 		System.out.println( "Welcome to the Account Registration Application!");
 		Scanner scanner = new Scanner(System.in);
@@ -60,7 +63,8 @@ public class BankAccountRegistrationApplication {
 			if (option > 1) break;
 		}
 
-		context.close();
+//		context.close();
+		scanner.close();
 
 //		System.out.println("User account list:");
 

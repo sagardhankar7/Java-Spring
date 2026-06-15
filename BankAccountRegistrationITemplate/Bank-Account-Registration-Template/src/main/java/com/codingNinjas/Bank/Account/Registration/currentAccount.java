@@ -42,7 +42,7 @@ public class currentAccount implements Account{
     }
 
     @PostConstruct
-    private void init() {
+    public void init() {
         System.out.println("currentAccount bean created!!");
     }
 }

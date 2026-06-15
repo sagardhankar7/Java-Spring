@@ -40,7 +40,7 @@ public class savingsAccount implements Account{
         this.amount = amount;
     }
     @PostConstruct
-    private void init() {
+    public void init() {
         System.out.println("savingsAccount bean created!!");
     }
 }

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mvc_demo" />
         <module name="Bank-Account-Registration" />
         <module name="EventResigtration (1)" />
         <module name="Cinemaxify" />
@@ -18,6 +19,9 @@
         <module name="codingNinjasApp" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mvc-demo" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -27,6 +31,9 @@
       <module name="EventResigtration" options="-parameters" />
       <module name="EventResigtration (1)" options="-parameters" />
       <module name="EventResigtration (2)" options="-parameters" />
+      <module name="ReadWell" options="-parameters" />
+      <module name="ReadWell.main" options="-parameters" />
+      <module name="ReadWell.test" options="-parameters" />
       <module name="SocialMedia" options="-parameters" />
       <module name="SocialMedia.main" options="-parameters" />
       <module name="SocialMedia.test" options="-parameters" />
@@ -37,6 +44,8 @@
       <module name="demo" options="-parameters" />
       <module name="demo.main" options="-parameters" />
       <module name="demo.test" options="-parameters" />
+      <module name="mvc-demo" options="-parameters" />
+      <module name="mvc_demo" options="-parameters" />
     </option>
   </component>
 </project>

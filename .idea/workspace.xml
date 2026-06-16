@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Library App - #own">
-      <change afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template_CarService_part1/src/main/webapp/WEB-INF/jsp/carregister.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template_CarService_part1/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/domain/SimpleUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/web/SignUpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/webapp/WEB-INF/jsp/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/webapp/WEB-INF/jsp/signup.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/repository/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/repository/StudentUserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/domain/StudentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/domain/StudentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/target/classes/com/example/website/domain/StudentUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/target/classes/com/example/website/domain/StudentUser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +26,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="476" />
+    <option name="cachedIndexableFilesCount" value="478" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">

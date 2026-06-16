@@ -1,5 +1,7 @@
 package com.example.website.domain;
 
+import com.example.website.repository.StudentUserDAO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -9,6 +11,19 @@ public class StudentUser implements User{
 	String gender; 
 	String location; 
 	String college;
+	int Id;
+	@Autowired
+	StudentUserDAO studentUserDAO;
+
+	public int getId() {
+		return Id;
+	}
+
+	public void setId(int id) {
+		Id = id;
+	}
+
+
 
 	public String getName() {
 		return name;
@@ -54,8 +69,8 @@ public class StudentUser implements User{
 
 	@Override
 	public Integer saveUser() {
-//		System.out.println(this.name);
-		return 0;
+		System.out.println(this.name);
+		return studentUserDAO.save(this);
 	}
 
 }

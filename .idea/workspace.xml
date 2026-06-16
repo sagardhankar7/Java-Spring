@@ -4,26 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Bank App using Annotation Context">
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/BookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/MyAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/SimpleBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/SimpleBookList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/SimpleStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/java/com/Sagar/ReadWell/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadWell/ReadWell/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Library App - #own">
+      <change afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template_CarService_part1/src/main/webapp/WEB-INF/jsp/carregister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template_CarService_part1/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/domain/SimpleUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/java/com/mvc/website/simple/web/SignUpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/webapp/WEB-INF/jsp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simpleMvc/simple/src/main/webapp/WEB-INF/jsp/signup.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/BankAccountRegistrationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/currentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/myUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/java/com/codingNinjas/Bank/Account/Registration/savingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountRegistrationITemplate/Bank-Account-Registration-Template/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +35,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="401" />
+    <option name="cachedIndexableFilesCount" value="476" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">
@@ -72,8 +67,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -93,61 +88,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0001886500367303" />
-      <entry key="S2" value="1.1183091569845842" />
-      <entry key="S5" value="1.523971338962963" />
-      <entry key="S10" value="2.097989249352917" />
-      <entry key="S30" value="3.08025639058835" />
-      <entry key="S60" value="3.4918661938771836" />
-      <entry key="M2" value="3.8059140979117494" />
-      <entry key="M5" value="4.534718453998156" />
-      <entry key="M10" value="5.3240014650764085" />
-      <entry key="M15" value="5.809167657984989" />
-      <entry key="M30" value="8.302110876377817" />
-      <entry key="H1" value="20.425023291124376" />
-      <entry key="H2" value="49.269103422159056" />
-      <entry key="H4" value="87.9833656548427" />
-      <entry key="D1" value="238.88248803745824" />
-      <entry key="W1" value="685.1261159294554" />
+      <entry key="MS100" value="1.5248583418115336" />
+      <entry key="MS500" value="1.879039560911787" />
+      <entry key="S2" value="1.9682825499083982" />
+      <entry key="S5" value="1.9871902152280487" />
+      <entry key="S10" value="1.9935812808143634" />
+      <entry key="S30" value="2.040963401986767" />
+      <entry key="S60" value="2.545695982775439" />
+      <entry key="M2" value="4.754813398871583" />
+      <entry key="M5" value="11.564624429345828" />
+      <entry key="M10" value="17.274676936074293" />
+      <entry key="M15" value="19.95384973223932" />
+      <entry key="M30" value="23.158924034303233" />
+      <entry key="H1" value="24.99690687074874" />
+      <entry key="H2" value="26.597228074971394" />
+      <entry key="H4" value="36.42213295678575" />
+      <entry key="D1" value="209.05564575079487" />
+      <entry key="W1" value="712.761025552733" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.0658048929865432E-307" />
-      <entry key="S2" value="1.914561032676756E-77" />
-      <entry key="S5" value="2.6580429720544E-31" />
-      <entry key="S10" value="7.030652041674703E-16" />
-      <entry key="S30" value="1.4066481336219733E-5" />
-      <entry key="S60" value="0.0057525924988895555" />
-      <entry key="M2" value="0.1402465918312249" />
-      <entry key="M5" value="1.1296938152382765" />
-      <entry key="M10" value="2.3566313168786133" />
-      <entry key="M15" value="3.1100742501898426" />
-      <entry key="M30" value="6.868060831994291" />
-      <entry key="H1" value="25.852953533671926" />
-      <entry key="H2" value="68.64844274927836" />
-      <entry key="H4" value="119.81560150449832" />
-      <entry key="D1" value="306.5070292539856" />
-      <entry key="W1" value="842.6444039511548" />
+      <entry key="MS500" value="1.8969784699330377E-114" />
+      <entry key="S2" value="5.327165514968063E-29" />
+      <entry key="S5" value="7.500783249822317E-12" />
+      <entry key="S10" value="4.9973383690175126E-6" />
+      <entry key="S30" value="0.07397572724421254" />
+      <entry key="S60" value="0.9816956359082251" />
+      <entry key="M2" value="3.795991384532784" />
+      <entry key="M5" value="9.036540005736459" />
+      <entry key="M10" value="12.302742633381419" />
+      <entry key="M15" value="13.67790302770979" />
+      <entry key="M30" value="15.233979382803648" />
+      <entry key="H1" value="16.093487411543318" />
+      <entry key="H2" value="17.16868560200769" />
+      <entry key="H4" value="27.63559845348225" />
+      <entry key="D1" value="232.01358386325936" />
+      <entry key="W1" value="836.129235016295" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.18556544632863112" />
-      <entry key="MS500" value="0.7141357559274566" />
-      <entry key="S2" value="1.0278196804543618" />
-      <entry key="S5" value="1.4739788566751117" />
-      <entry key="S10" value="2.064467482783788" />
-      <entry key="S30" value="3.0645065459912395" />
-      <entry key="S60" value="3.4886991196957284" />
-      <entry key="M2" value="3.9401815516384793" />
-      <entry key="M5" value="5.65807420240791" />
-      <entry key="M10" value="7.674971827711761" />
-      <entry key="M15" value="8.914404489189014" />
-      <entry key="M30" value="15.164634551042827" />
-      <entry key="H1" value="46.26730035045072" />
-      <entry key="H2" value="117.90343076182495" />
-      <entry key="H4" value="207.78659570837146" />
-      <entry key="D1" value="545.3836601184241" />
-      <entry key="W1" value="1527.7680235800594" />
+      <entry key="MS100" value="0.6278935860982665" />
+      <entry key="MS500" value="1.4586587696418487" />
+      <entry key="S2" value="1.8392554728173713" />
+      <entry key="S5" value="1.933318963249917" />
+      <entry key="S10" value="1.9662584620818702" />
+      <entry key="S30" value="2.1020228737664017" />
+      <entry key="S60" value="3.498428217297807" />
+      <entry key="M2" value="8.501155441083583" />
+      <entry key="M5" value="20.553411383638306" />
+      <entry key="M10" value="29.544193650274785" />
+      <entry key="M15" value="33.6068803833481" />
+      <entry key="M30" value="38.37889416731304" />
+      <entry key="H1" value="41.082948845815906" />
+      <entry key="H2" value="43.761955276176025" />
+      <entry key="H4" value="64.05468149882493" />
+      <entry key="D1" value="441.0648287813951" />
+      <entry key="W1" value="1548.8878002986733" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -179,6 +174,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.BankAccountRegistrationApplication.executor": "Run",
+    "Spring Boot.CarRegisterationPart_1Application.executor": "Run",
     "Spring Boot.CinemaxifyApplication (1).executor": "Run",
     "Spring Boot.CinemaxifyApplication.executor": "Run",
     "Spring Boot.EventRegistrationApplication (1).executor": "Run",
@@ -186,9 +182,11 @@
     "Spring Boot.MvcDemoApplication (1).executor": "Run",
     "Spring Boot.MvcDemoApplication.executor": "Run",
     "Spring Boot.ReadWellApplication.executor": "Run",
+    "Spring Boot.SimpleApplication.executor": "Run",
     "Spring Boot.TastyTroveApplication.executor": "Run",
     "Spring Boot.TuneInApplication.executor": "Run",
     "Spring Boot.VaccinationApplication.executor": "Run",
+    "Spring Boot.WebsiteApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -204,7 +202,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.MvcDemoApplication">
+  <component name="RunManager" selected="Spring Boot.CarRegisterationPart_1Application">
     <configuration name="BankAccountRegistrationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codingNinjas.Bank.Account.Registration.BankAccountRegistrationApplication" />
       <module name="Bank-Account-Registration" />
@@ -270,6 +268,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarRegisterationPart_1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="CarService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.CarServicePart_1.CarRegisterationPart_1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CinemaxifyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Cinemaxify (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Cinemaxify.CinemaxifyApplication" />
@@ -327,6 +333,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="simple" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mvc.website.simple.SimpleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocialMediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SocialMedia.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sagar.SocialMedia.SocialMediaApplication" />
@@ -351,6 +364,14 @@
     <configuration name="VaccinationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Vaccination" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Vaccination.VaccinationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebsiteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="website" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.website.WebsiteApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -383,7 +404,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
-      <workItem from="1781263702006" duration="66234000" />
+      <workItem from="1781263702006" duration="77410000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -529,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781448969994</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Library App - #own">
+      <option name="closed" value="true" />
+      <created>1781527347078</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1781527347078</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +594,8 @@
     <MESSAGE value="Recipe app - Field Injection" />
     <MESSAGE value="Song Playlist App" />
     <MESSAGE value="Bank App using Annotation Context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bank App using Annotation Context" />
+    <MESSAGE value="Library App - #own" />
+    <option name="LAST_COMMIT_MESSAGE" value="Library App - #own" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

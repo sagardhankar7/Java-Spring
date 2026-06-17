@@ -74,6 +74,8 @@ public class RegisterController {
   */
     @RequestMapping("/done")
     public String getResponsePage(@ModelAttribute(value = "car") Car car, Model model){
+        // Car car is incoming data (object binding)
+        // Model model is outgoing view (Response)
         //Write your logic here
         if (registration.registerCar(car.getRegisterationNumber(), car.getCarName(), car.getCarDetails(), car.getCarWork())) {
             model.addAttribute("msg", "Car Registered Successfully");

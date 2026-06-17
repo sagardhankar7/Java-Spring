@@ -1,5 +1,8 @@
 package com.example.CarService.domain;
 
+import com.example.CarService.repository.CarDAO;
+import com.example.CarService.repository.DAO;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -9,6 +12,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class Car implements Vehicle{
 
+    @Autowired
+    DAO<Car> carDAO;
+
     // Kindly don't change the name of any variable & method as it will affect the test cases:
 
     String RegisterationNumber;
@@ -16,6 +22,14 @@ public class Car implements Vehicle{
     String CarDetails;
     String CarWork;
     Integer CarId;
+
+
+
+//    public Car(CarDAO carDAO) {
+//        this.carDAO = carDAO;
+//    }
+
+
 
     public Integer getCarId() {
         return CarId;
@@ -59,8 +73,12 @@ public class Car implements Vehicle{
 
     @Override
     public Boolean saveVehicleDetails() {
-       System.out.println("saved");
-        return true;
+        if (RegisterationNumber!="" && this.RegisterationNumber!=null && this.CarName!=null && this.CarDetails!=null && this.CarWork != null) {
+            carDAO.save(this);
+            System.out.println("saved");
+            return true;
+        }
+        return false;
     }
 
     @Override
@@ -69,6 +87,7 @@ public class Car implements Vehicle{
         this.setCarName(CarName);
         this.setCarDetails(CarDetails);
         this.setCarWork(CarWork);
+
     }
 
 }

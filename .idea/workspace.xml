@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Library App - #own">
-      <change afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/repository/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/repository/StudentUserDAO.java" afterDir="false" />
+    <list default="true" id="af59946f-36c1-47f2-9b07-1e00075d6628" name="Changes" comment="Car Service - Initial Project setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/domain/StudentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/src/main/java/com/example/website/domain/StudentUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/target/classes/com/example/website/domain/StudentUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/Form Handling Using JSP/Form Handling using JSP/target/classes/com/example/website/domain/StudentUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarService Part 2 Template/CarService Part 2 Template/src/main/java/com/example/CarService/Controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarService Part 2 Template/CarService Part 2 Template/src/main/java/com/example/CarService/Controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarService Part 2 Template/CarService Part 2 Template/src/main/webapp/WEB-INF/jsp/carregister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/CarService Part 2 Template/CarService Part 2 Template/src/main/webapp/WEB-INF/jsp/carregister.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarService Part 2 Template/CarService Part 2 Template/target/classes/com/example/CarService/Controller/RegisterController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,61 +78,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5248583418115336" />
-      <entry key="MS500" value="1.879039560911787" />
-      <entry key="S2" value="1.9682825499083982" />
-      <entry key="S5" value="1.9871902152280487" />
-      <entry key="S10" value="1.9935812808143634" />
-      <entry key="S30" value="2.040963401986767" />
-      <entry key="S60" value="2.545695982775439" />
-      <entry key="M2" value="4.754813398871583" />
-      <entry key="M5" value="11.564624429345828" />
-      <entry key="M10" value="17.274676936074293" />
-      <entry key="M15" value="19.95384973223932" />
-      <entry key="M30" value="23.158924034303233" />
-      <entry key="H1" value="24.99690687074874" />
-      <entry key="H2" value="26.597228074971394" />
-      <entry key="H4" value="36.42213295678575" />
-      <entry key="D1" value="209.05564575079487" />
-      <entry key="W1" value="712.761025552733" />
+      <entry key="MS100" value="1.000018916438419" />
+      <entry key="MS500" value="1.1170007687105246" />
+      <entry key="S2" value="2.0461100986124836" />
+      <entry key="S5" value="3.881403340520191" />
+      <entry key="S10" value="5.993504520023116" />
+      <entry key="S30" value="8.807991750921618" />
+      <entry key="S60" value="9.820455603584236" />
+      <entry key="M2" value="10.503432374933666" />
+      <entry key="M5" value="12.534605844851772" />
+      <entry key="M10" value="15.305410206766098" />
+      <entry key="M15" value="16.9159851387867" />
+      <entry key="M30" value="19.082024478431237" />
+      <entry key="H1" value="20.45715760918783" />
+      <entry key="H2" value="22.026354864617804" />
+      <entry key="H4" value="28.05666031751415" />
+      <entry key="D1" value="178.67516025600716" />
+      <entry key="W1" value="706.023131888632" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.8969784699330377E-114" />
-      <entry key="S2" value="5.327165514968063E-29" />
-      <entry key="S5" value="7.500783249822317E-12" />
-      <entry key="S10" value="4.9973383690175126E-6" />
-      <entry key="S30" value="0.07397572724421254" />
-      <entry key="S60" value="0.9816956359082251" />
-      <entry key="M2" value="3.795991384532784" />
-      <entry key="M5" value="9.036540005736459" />
-      <entry key="M10" value="12.302742633381419" />
-      <entry key="M15" value="13.67790302770979" />
-      <entry key="M30" value="15.233979382803648" />
-      <entry key="H1" value="16.093487411543318" />
-      <entry key="H2" value="17.16868560200769" />
-      <entry key="H4" value="27.63559845348225" />
-      <entry key="D1" value="232.01358386325936" />
-      <entry key="W1" value="836.129235016295" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="7.849493409066393E-181" />
+      <entry key="M2" value="3.394357667041028E-90" />
+      <entry key="M5" value="8.641221337447813E-36" />
+      <entry key="M10" value="1.2030631258538677E-17" />
+      <entry key="M15" value="1.347546741776777E-11" />
+      <entry key="M30" value="1.5120826229526722E-5" />
+      <entry key="H1" value="0.016033607359039095" />
+      <entry key="H2" value="0.5419105269219924" />
+      <entry key="H4" value="4.9098038669454" />
+      <entry key="D1" value="173.958621512661" />
+      <entry key="W1" value="802.4290250817119" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6278935860982665" />
-      <entry key="MS500" value="1.4586587696418487" />
-      <entry key="S2" value="1.8392554728173713" />
-      <entry key="S5" value="1.933318963249917" />
-      <entry key="S10" value="1.9662584620818702" />
-      <entry key="S30" value="2.1020228737664017" />
-      <entry key="S60" value="3.498428217297807" />
-      <entry key="M2" value="8.501155441083583" />
-      <entry key="M5" value="20.553411383638306" />
-      <entry key="M10" value="29.544193650274785" />
-      <entry key="M15" value="33.6068803833481" />
-      <entry key="M30" value="38.37889416731304" />
-      <entry key="H1" value="41.082948845815906" />
-      <entry key="H2" value="43.761955276176025" />
-      <entry key="H4" value="64.05468149882493" />
-      <entry key="D1" value="441.0648287813951" />
-      <entry key="W1" value="1548.8878002986733" />
+      <entry key="MS100" value="0.9726730932729281" />
+      <entry key="MS500" value="1.1105100947872906" />
+      <entry key="S2" value="2.042751621251827" />
+      <entry key="S5" value="3.8786221645108183" />
+      <entry key="S10" value="5.991255268798742" />
+      <entry key="S30" value="8.806858195757783" />
+      <entry key="S60" value="9.819819775869624" />
+      <entry key="M2" value="10.503091433876847" />
+      <entry key="M5" value="12.534443186170332" />
+      <entry key="M10" value="15.30531108125434" />
+      <entry key="M15" value="16.915912163080318" />
+      <entry key="M30" value="19.08199846339791" />
+      <entry key="H1" value="20.47316179342078" />
+      <entry key="H2" value="22.568129042695077" />
+      <entry key="H4" value="32.96591652033004" />
+      <entry key="D1" value="352.6304811386379" />
+      <entry key="W1" value="1508.4497957203437" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -395,7 +394,7 @@
       <workItem from="1781001200246" duration="6358000" />
       <workItem from="1781066250913" duration="33407000" />
       <workItem from="1781237856418" duration="19601000" />
-      <workItem from="1781263702006" duration="77410000" />
+      <workItem from="1781263702006" duration="78848000" />
     </task>
     <task id="LOCAL-00001" summary="LIC">
       <option name="closed" value="true" />
@@ -549,7 +548,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781527347078</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="DAO usage and implementation for user registration">
+      <option name="closed" value="true" />
+      <created>1781615874566</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1781615874566</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Car Service - Initial Project setup">
+      <option name="closed" value="true" />
+      <created>1781616653924</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1781616653924</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +601,9 @@
     <MESSAGE value="Song Playlist App" />
     <MESSAGE value="Bank App using Annotation Context" />
     <MESSAGE value="Library App - #own" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library App - #own" />
+    <MESSAGE value="DAO usage and implementation for user registration" />
+    <MESSAGE value="Car Service - Initial Project setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Car Service - Initial Project setup" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
